@@ -4,9 +4,13 @@ var annotated_dup =
       [ "Convert", null, [
         [ "StackVariableAllocator", "struct_editor_python_bindings_1_1_convert_1_1_stack_variable_allocator.html", null ]
       ] ],
+      [ "Text", null, [
+        [ "PythonBehaviorDescription", "class_editor_python_bindings_1_1_text_1_1_python_behavior_description.html", "class_editor_python_bindings_1_1_text_1_1_python_behavior_description" ]
+      ] ],
       [ "ActionManagerRequests", "class_editor_python_bindings_1_1_action_manager_requests.html", "class_editor_python_bindings_1_1_action_manager_requests" ],
       [ "CustomTypeBindingNotifications", "class_editor_python_bindings_1_1_custom_type_binding_notifications.html", "class_editor_python_bindings_1_1_custom_type_binding_notifications" ],
       [ "EditorPythonBindingsNotifications", "class_editor_python_bindings_1_1_editor_python_bindings_notifications.html", "class_editor_python_bindings_1_1_editor_python_bindings_notifications" ],
+      [ "InitializePython", "class_editor_python_bindings_1_1_initialize_python.html", null ],
       [ "MenuManagerRequests", "class_editor_python_bindings_1_1_menu_manager_requests.html", "class_editor_python_bindings_1_1_menu_manager_requests" ],
       [ "PythonActionManagerHandler", "class_editor_python_bindings_1_1_python_action_manager_handler.html", null ],
       [ "PythonEditorAction", "class_editor_python_bindings_1_1_python_editor_action.html", null ],

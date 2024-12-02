@@ -36,11 +36,13 @@ var hierarchy =
     [ "EditorPythonBindings::EditorPythonBindingsNotificationBus::Handler", null, [
       [ "EditorPythonBindings::PythonReflectionComponent", "class_editor_python_bindings_1_1_python_reflection_component.html", null ]
     ] ],
+    [ "EditorPythonBindings::InitializePython", "class_editor_python_bindings_1_1_initialize_python.html", null ],
     [ "EditorPythonBindings::PythonEditorAction", "class_editor_python_bindings_1_1_python_editor_action.html", null ],
     [ "EditorPythonBindings::PythonMarshalComponent::TypeConverter", "class_editor_python_bindings_1_1_python_marshal_component_1_1_type_converter.html", [
       [ "EditorPythonBindings::TypeConverterTuple", "class_editor_python_bindings_1_1_type_converter_tuple.html", null ]
     ] ],
     [ "EditorPythonBindings::PythonProxyObject", "class_editor_python_bindings_1_1_python_proxy_object.html", null ],
+    [ "EditorPythonBindings::Text::PythonBehaviorDescription", "class_editor_python_bindings_1_1_text_1_1_python_behavior_description.html", null ],
     [ "EditorPythonBindingsNotificationBus::Handler", null, [
       [ "EditorPythonBindings::PythonLogSymbolsComponent", "class_editor_python_bindings_1_1_python_log_symbols_component.html", null ]
     ] ],
