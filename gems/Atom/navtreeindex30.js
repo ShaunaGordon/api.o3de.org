@@ -1,5 +1,7 @@
 var NAVTREEINDEX30 =
 {
+"pages.html":[],
+"quick_start.html":[0,2],
 "quick_start.html#quick_start_creating_resources":[0,2,1],
 "quick_start.html#quick_start_initialization":[0,2,4],
 "quick_start.html#quick_start_initialization_importing_vulkan_functions":[0,2,4,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX30 =
 "struct_a_z_1_1_r_h_i_1_1_device_limits.html#a1acf43414d64fa77bffd91d9ade3ac76":[3,0,1,6,56,4],
 "struct_a_z_1_1_r_h_i_1_1_device_limits.html#a270600349c8bedfb5e3d3cde392b2cc0":[3,0,1,6,56,3],
 "struct_a_z_1_1_r_h_i_1_1_device_limits.html#a3827f5666afbc25df57bddda6334d9e6":[3,0,1,6,56,13],
-"struct_a_z_1_1_r_h_i_1_1_device_limits.html#a665dd84fbe52b01334837c677a2d5adf":[3,0,1,6,56,10],
-"struct_a_z_1_1_r_h_i_1_1_device_limits.html#a68f5a9f86e7541a96cf14bbb6a97d5d4":[3,0,1,6,56,6],
-"struct_a_z_1_1_r_h_i_1_1_device_limits.html#a75925b4aebe5c9b890dcfb7d387cb4fd":[3,0,1,6,56,7]
+"struct_a_z_1_1_r_h_i_1_1_device_limits.html#a665dd84fbe52b01334837c677a2d5adf":[3,0,1,6,56,10]
 };

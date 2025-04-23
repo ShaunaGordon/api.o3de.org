@@ -9,7 +9,8 @@ var NAVTREEINDEX0 =
 "_masked_occlusion_culling_8h.html#af89c3f9d86340266935e92bf0f66529e":[4,0,0,0,0,0,0,0,0,7],
 "_masked_occlusion_culling_8h.html#aff26d3fb3dd5fd95f2fdd48b69be45f3":[4,0,0,0,0,0,0,0,0,9],
 "_model_tag_system_component_8h.html":[4,0,0,0,0,0,1,0,0,0,0],
-"_r_p_i_system_component_8h.html":[4,0,0,0,0,0,2,0,0],
+"_pass_templates_auto_loader_8h.html":[4,0,0,0,0,0,2,0,0],
+"_r_p_i_system_component_8h.html":[4,0,0,0,0,0,2,0,1],
 "allocation_annotation.html":[0,15],
 "allocation_annotation.html#allocation_names":[0,15,1],
 "allocation_annotation.html#allocation_user_data":[0,15,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "class_a_z_1_1_d_x12_1_1_pipeline_layout.html#a2e8e315fcbb2b3bbe49c02e30bc55edd":[3,0,1,2,51,2],
 "class_a_z_1_1_d_x12_1_1_pipeline_layout.html#a30fddda0e4d971ef1ee896d347842d8d":[2,0,0,0,51,4],
 "class_a_z_1_1_d_x12_1_1_pipeline_layout.html#a30fddda0e4d971ef1ee896d347842d8d":[3,0,1,2,51,4],
-"class_a_z_1_1_d_x12_1_1_pipeline_layout.html#a5e959f644fcaca053db102e61ad85b9f":[2,0,0,0,51,5],
-"class_a_z_1_1_d_x12_1_1_pipeline_layout.html#a5e959f644fcaca053db102e61ad85b9f":[3,0,1,2,51,5]
+"class_a_z_1_1_d_x12_1_1_pipeline_layout.html#a5e959f644fcaca053db102e61ad85b9f":[2,0,0,0,51,5]
 };

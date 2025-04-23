@@ -1,5 +1,7 @@
 var NAVTREEINDEX38 =
 {
+"struct_vk_conditional_rendering_begin_info_e_x_t.html":[3,0,145],
+"struct_vk_conformance_version.html":[3,0,146],
 "struct_vk_cooperative_matrix_properties_n_v.html":[3,0,147],
 "struct_vk_copy_acceleration_structure_info_k_h_r.html":[3,0,148],
 "struct_vk_copy_acceleration_structure_to_memory_info_k_h_r.html":[3,0,149],
@@ -247,7 +249,5 @@ var NAVTREEINDEX38 =
 "struct_vk_physical_device4444_formats_features_e_x_t.html":[3,0,396],
 "struct_vk_physical_device8_bit_storage_features.html":[3,0,397],
 "struct_vk_physical_device_a_s_t_c_decode_features_e_x_t.html":[3,0,402],
-"struct_vk_physical_device_acceleration_structure_features_k_h_r.html":[3,0,398],
-"struct_vk_physical_device_acceleration_structure_properties_k_h_r.html":[3,0,399],
-"struct_vk_physical_device_address_binding_report_features_e_x_t.html":[3,0,400]
+"struct_vk_physical_device_acceleration_structure_features_k_h_r.html":[3,0,398]
 };

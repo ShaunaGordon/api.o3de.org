@@ -1,5 +1,9 @@
 var NAVTREEINDEX12 =
 {
+"class_az_tools_framework_1_1_prefab_1_1_instance_to_template_interface.html#a3d6c1227509014b312a5d7c66b388497":[2,0,5,15,12,7],
+"class_az_tools_framework_1_1_prefab_1_1_instance_to_template_interface.html#a48d6439fdd5e1fe5122f17b9d33ef5ae":[2,0,5,15,12,4],
+"class_az_tools_framework_1_1_prefab_1_1_instance_to_template_interface.html#a5f5f6812b07aa0c2231b0f8dbd3961e5":[2,0,5,15,12,9],
+"class_az_tools_framework_1_1_prefab_1_1_instance_to_template_interface.html#abf851e74c5e0cb39ea929d0d520b9da4":[2,0,5,15,12,3],
 "class_az_tools_framework_1_1_prefab_1_1_instance_to_template_interface.html#acdc1b7e28f3cb56ab4a088d44c80f4f4":[2,0,5,15,12,0],
 "class_az_tools_framework_1_1_prefab_1_1_instance_to_template_interface.html#adb2b1e2e7ef84f0ccaf9bb5a9d98775a":[2,0,5,15,12,1],
 "class_az_tools_framework_1_1_prefab_1_1_instance_to_template_propagator.html":[2,0,5,15,13],
@@ -245,9 +249,5 @@ var NAVTREEINDEX12 =
 "class_az_tools_framework_1_1_prefab_1_1_prefab_system_component_interface.html#ab3b26c75e78a158b2e5726c497ca302b":[2,0,5,15,46,3],
 "class_az_tools_framework_1_1_prefab_1_1_prefab_system_component_interface.html#ac2228f1956db44f24856282959cf3195":[2,0,5,15,46,0],
 "class_az_tools_framework_1_1_prefab_1_1_prefab_system_component_interface.html#ac949dff70771f420545345e71a567ef2":[2,0,5,15,46,1],
-"class_az_tools_framework_1_1_prefab_1_1_prefab_system_scripting_handler.html":[2,0,5,15,48],
-"class_az_tools_framework_1_1_prefab_1_1_prefab_template_notifications.html":[2,0,5,15,49],
-"class_az_tools_framework_1_1_prefab_1_1_prefab_template_notifications.html#ae64cdb2276ff72334b508438e4877d0c":[2,0,5,15,49,0],
-"class_az_tools_framework_1_1_prefab_1_1_prefab_to_in_memory_spawnable_notifications.html":[2,0,5,15,50],
-"class_az_tools_framework_1_1_prefab_1_1_prefab_to_in_memory_spawnable_notifications.html#a22fc15906699abeab632b05c3f55faa4":[2,0,5,15,50,0]
+"class_az_tools_framework_1_1_prefab_1_1_prefab_system_scripting_handler.html":[2,0,5,15,48]
 };

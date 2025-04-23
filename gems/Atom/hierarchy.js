@@ -144,6 +144,7 @@ var hierarchy =
       [ "AZ::RPI::MaterialAssetDependenciesComponent", "class_a_z_1_1_r_p_i_1_1_material_asset_dependencies_component.html", null ],
       [ "AZ::RPI::ModelAssetDependenciesComponent", "class_a_z_1_1_r_p_i_1_1_model_asset_dependencies_component.html", null ],
       [ "AZ::RPI::ModelTagSystemComponent", "class_a_z_1_1_r_p_i_1_1_model_tag_system_component.html", null ],
+      [ "AZ::RPI::PassTemplatesAutoLoader", "class_a_z_1_1_r_p_i_1_1_pass_templates_auto_loader.html", null ],
       [ "AZ::RPI::RPISystemComponent", "class_a_z_1_1_r_p_i_1_1_r_p_i_system_component.html", null ],
       [ "AZ::Render::Bootstrap::BootstrapSystemComponent", "class_a_z_1_1_render_1_1_bootstrap_1_1_bootstrap_system_component.html", null ],
       [ "AZ::Render::CommonSystemComponent", "class_a_z_1_1_render_1_1_common_system_component.html", null ],
@@ -215,6 +216,7 @@ var hierarchy =
       [ "AZ::AssetCollectionAsyncLoader", "class_a_z_1_1_asset_collection_async_loader.html", null ],
       [ "AZ::RPI::MaterialTypeAsset", "class_a_z_1_1_r_p_i_1_1_material_type_asset.html", null ],
       [ "AZ::RPI::PassLibrary", "class_a_z_1_1_r_p_i_1_1_pass_library.html", null ],
+      [ "AZ::RPI::Shader", "class_a_z_1_1_r_p_i_1_1_shader.html", null ],
       [ "AZ::RPI::ShaderVariantAsyncLoader", "class_a_z_1_1_r_p_i_1_1_shader_variant_async_loader.html", null ],
       [ "AZ::RPI::StreamingImage", "class_a_z_1_1_r_p_i_1_1_streaming_image.html", null ],
       [ "AZ::RPI::StreamingImageAssetHandler", "class_a_z_1_1_r_p_i_1_1_streaming_image_asset_handler.html", null ],
@@ -2336,8 +2338,7 @@ var hierarchy =
     [ "D3D12MA::VirtualAllocation", "struct_d3_d12_m_a_1_1_virtual_allocation.html", null ],
     [ "Data::AssetBus::Handler", null, [
       [ "AZ::RPI::AssetUtils::AsyncAssetLoader", "class_a_z_1_1_r_p_i_1_1_asset_utils_1_1_async_asset_loader.html", null ],
-      [ "AZ::RPI::ImageAttachmentPreviewPass", "class_a_z_1_1_r_p_i_1_1_image_attachment_preview_pass.html", null ],
-      [ "AZ::RPI::Shader", "class_a_z_1_1_r_p_i_1_1_shader.html", null ]
+      [ "AZ::RPI::ImageAttachmentPreviewPass", "class_a_z_1_1_r_p_i_1_1_image_attachment_preview_pass.html", null ]
     ] ],
     [ "Data::AssetHandler", null, [
       [ "AZ::RPI::BuiltInAssetHandler", "class_a_z_1_1_r_p_i_1_1_built_in_asset_handler.html", null ]
@@ -2867,6 +2868,9 @@ var hierarchy =
     [ "StdVideoH265SubLayerHrdParameters", "struct_std_video_h265_sub_layer_hrd_parameters.html", null ],
     [ "StdVideoH265VideoParameterSet", "struct_std_video_h265_video_parameter_set.html", null ],
     [ "StdVideoH265VpsFlags", "struct_std_video_h265_vps_flags.html", null ],
+    [ "SystemTickBus::Handler", null, [
+      [ "AZ::RPI::AssetUtils::AsyncAssetLoader", "class_a_z_1_1_r_p_i_1_1_asset_utils_1_1_async_asset_loader.html", null ]
+    ] ],
     [ "TickBus::Handler", null, [
       [ "AZ::Debug::ArcBallControllerComponent", "class_a_z_1_1_debug_1_1_arc_ball_controller_component.html", null ],
       [ "AZ::Debug::NoClipControllerComponent", "class_a_z_1_1_debug_1_1_no_clip_controller_component.html", null ],

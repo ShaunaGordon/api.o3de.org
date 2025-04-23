@@ -1,5 +1,9 @@
 var NAVTREEINDEX10 =
 {
+"class_az_tools_framework_1_1_instance_data_hierarchy.html#a7324335d8a069eb7dacef8f18e69c359":[2,0,5,241,6],
+"class_az_tools_framework_1_1_instance_data_hierarchy.html#a94cc18c6e1f044c490356571155de903":[1,0,1,223,12],
+"class_az_tools_framework_1_1_instance_data_hierarchy.html#a94cc18c6e1f044c490356571155de903":[2,0,5,241,12],
+"class_az_tools_framework_1_1_instance_data_hierarchy.html#a9e2db1c14d552db4f16835bcc78adcb1":[1,0,1,223,25],
 "class_az_tools_framework_1_1_instance_data_hierarchy.html#a9e2db1c14d552db4f16835bcc78adcb1":[2,0,5,241,25],
 "class_az_tools_framework_1_1_instance_data_hierarchy.html#aa8c56056eb470c78b27cb3c412f42a31":[1,0,1,223,3],
 "class_az_tools_framework_1_1_instance_data_hierarchy.html#aa8c56056eb470c78b27cb3c412f42a31":[2,0,5,241,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX10 =
 "class_az_tools_framework_1_1_manipulator_view_line_select.html":[2,0,5,275],
 "class_az_tools_framework_1_1_manipulator_view_projected_circle.html":[1,0,1,258],
 "class_az_tools_framework_1_1_manipulator_view_projected_circle.html":[2,0,5,276],
-"class_az_tools_framework_1_1_manipulator_view_quad.html":[1,0,1,259],
-"class_az_tools_framework_1_1_manipulator_view_quad.html":[2,0,5,277],
-"class_az_tools_framework_1_1_manipulator_view_quad.html#a53d07cb41efbcfc55750f8659f3b42a2":[1,0,1,259,0],
-"class_az_tools_framework_1_1_manipulator_view_quad.html#a53d07cb41efbcfc55750f8659f3b42a2":[2,0,5,277,0],
-"class_az_tools_framework_1_1_manipulator_view_quad_billboard.html":[1,0,1,260]
+"class_az_tools_framework_1_1_manipulator_view_quad.html":[1,0,1,259]
 };

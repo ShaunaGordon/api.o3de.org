@@ -1,5 +1,7 @@
 var NAVTREEINDEX28 =
 {
+"class_atom_tools_framework_1_1_property_string_browse_edit_ctrl.html":[3,0,0,99],
+"class_atom_tools_framework_1_1_property_string_browse_edit_handler.html":[3,0,0,100],
 "class_atom_tools_framework_1_1_property_string_file_path_ctrl.html":[3,0,0,101],
 "class_atom_tools_framework_1_1_property_string_file_path_handler.html":[3,0,0,102],
 "class_atom_tools_framework_1_1_render_viewport_widget.html":[3,0,0,103],
@@ -247,7 +249,5 @@ var NAVTREEINDEX28 =
 "class_image_processing_atom_editor_1_1_image_popup.html":[3,0,5,2],
 "class_image_processing_atom_editor_1_1_image_processing_editor_interal_notifications.html":[3,0,5,3],
 "class_image_processing_atom_editor_1_1_image_processing_editor_interal_notifications.html#a4af22a1e4ec1f920c27658e2b93655b1":[3,0,5,3,0],
-"class_image_processing_atom_editor_1_1_image_processing_editor_requests.html":[3,0,5,4],
-"class_image_processing_atom_editor_1_1_image_processing_editor_requests.html#a100f8a3e2df432b061a82808ac7cdd6e":[3,0,5,4,0],
-"class_image_processing_atom_editor_1_1_mipmap_setting_widget.html":[3,0,5,5]
+"class_image_processing_atom_editor_1_1_image_processing_editor_requests.html":[3,0,5,4]
 };

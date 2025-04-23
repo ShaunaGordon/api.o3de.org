@@ -1,5 +1,6 @@
 var NAVTREEINDEX8 =
 {
+"class_a_z_1_1_r_h_i_1_1_shader_resource_group_pool.html#a6834bf09afdcfdd2a854be9ce5f0941b":[3,0,1,6,328,0],
 "class_a_z_1_1_r_h_i_1_1_shader_resource_group_pool.html#a7859993736abb52abc132037dc710370":[3,0,1,6,328,5],
 "class_a_z_1_1_r_h_i_1_1_shader_resource_group_pool.html#a866e19491dbb573905187ff242815bb4":[3,0,1,6,328,6],
 "class_a_z_1_1_r_h_i_1_1_shader_resource_group_pool.html#a9888785651682e442c869e3ca71a7635":[3,0,1,6,328,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX8 =
 "class_a_z_1_1_r_p_i_1_1_buffer_asset_creator.html#a5ae09162eb7d7fd6de29c84230d70298":[3,0,1,7,26,7],
 "class_a_z_1_1_r_p_i_1_1_buffer_asset_creator.html#aac989ab7ac2db4bf1784be3eb784f2cd":[3,0,1,7,26,0],
 "class_a_z_1_1_r_p_i_1_1_buffer_asset_creator.html#ac1775bd4d8ba17b78120149d745879f0":[3,0,1,7,26,1],
-"class_a_z_1_1_r_p_i_1_1_buffer_asset_creator.html#aeb0349739044788ea6e05949397c520a":[3,0,1,7,26,4],
-"class_a_z_1_1_r_p_i_1_1_buffer_asset_view.html":[3,0,1,7,27]
+"class_a_z_1_1_r_p_i_1_1_buffer_asset_creator.html#aeb0349739044788ea6e05949397c520a":[3,0,1,7,26,4]
 };
