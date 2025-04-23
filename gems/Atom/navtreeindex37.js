@@ -1,5 +1,7 @@
 var NAVTREEINDEX37 =
 {
+"struct_d3_d12_m_a_1_1_a_l_l_o_c_a_t_i_o_n___d_e_s_c.html#a92dec49b788a334fc91c55340dfbace6":[3,0,3,2,2],
+"struct_d3_d12_m_a_1_1_a_l_l_o_c_a_t_i_o_n___d_e_s_c.html#a97878838f976b2d1e6b1a76881035690":[3,0,3,2,1],
 "struct_d3_d12_m_a_1_1_a_l_l_o_c_a_t_i_o_n___d_e_s_c.html#aa46b3c0456e5a23edef3328607ebf4d7":[3,0,3,2,3],
 "struct_d3_d12_m_a_1_1_a_l_l_o_c_a_t_i_o_n___d_e_s_c.html#ab06b85f3cf3254f855b29264477e3934":[3,0,3,2,0],
 "struct_d3_d12_m_a_1_1_a_l_l_o_c_a_t_i_o_n___d_e_s_c.html#ac638dd987f1326e2fdab91892d994d35":[3,0,3,2,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX37 =
 "struct_vk_command_buffer_submit_info.html":[3,0,141],
 "struct_vk_command_pool_create_info.html":[3,0,142],
 "struct_vk_component_mapping.html":[3,0,143],
-"struct_vk_compute_pipeline_create_info.html":[3,0,144],
-"struct_vk_conditional_rendering_begin_info_e_x_t.html":[3,0,145],
-"struct_vk_conformance_version.html":[3,0,146]
+"struct_vk_compute_pipeline_create_info.html":[3,0,144]
 };

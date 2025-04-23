@@ -1239,6 +1239,7 @@ var annotated_dup =
         [ "PassSystemInterface", "class_a_z_1_1_r_p_i_1_1_pass_system_interface.html", "class_a_z_1_1_r_p_i_1_1_pass_system_interface" ],
         [ "PassSystemTemplateNotifications", "class_a_z_1_1_r_p_i_1_1_pass_system_template_notifications.html", "class_a_z_1_1_r_p_i_1_1_pass_system_template_notifications" ],
         [ "PassTemplate", "class_a_z_1_1_r_p_i_1_1_pass_template.html", "class_a_z_1_1_r_p_i_1_1_pass_template" ],
+        [ "PassTemplatesAutoLoader", "class_a_z_1_1_r_p_i_1_1_pass_templates_auto_loader.html", null ],
         [ "PassTree", "class_a_z_1_1_r_p_i_1_1_pass_tree.html", null ],
         [ "PassValidation", "class_a_z_1_1_r_p_i_1_1_pass_validation.html", null ],
         [ "PassValidationResults", "struct_a_z_1_1_r_p_i_1_1_pass_validation_results.html", null ],

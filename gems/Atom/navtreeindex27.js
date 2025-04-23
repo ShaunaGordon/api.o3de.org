@@ -1,5 +1,7 @@
 var NAVTREEINDEX27 =
 {
+"class_atom_tools_framework_1_1_atom_tools_document_system_requests.html#adfc51a1e0a7fcef934584cbc5e322649":[3,0,0,18,11],
+"class_atom_tools_framework_1_1_atom_tools_document_system_requests.html#ae06e6d6ae71db4fbcccf795842013303":[3,0,0,18,17],
 "class_atom_tools_framework_1_1_atom_tools_document_system_requests.html#ae28ca4bd616a39687b73ed33487dda02":[3,0,0,18,10],
 "class_atom_tools_framework_1_1_atom_tools_document_system_requests.html#ae338eb34c0492f02400be543eab7593f":[3,0,0,18,15],
 "class_atom_tools_framework_1_1_atom_tools_document_system_requests.html#af5ce85ded2fcf91dd943fc9aad9d3c17":[3,0,0,18,22],
@@ -247,7 +249,5 @@ var NAVTREEINDEX27 =
 "class_atom_tools_framework_1_1_property_multi_string_select_set_handler.html":[3,0,0,97],
 "class_atom_tools_framework_1_1_property_multi_string_select_vector_handler.html":[3,0,0,98],
 "class_atom_tools_framework_1_1_property_multiline_string_dialog_ctrl.html":[3,0,0,93],
-"class_atom_tools_framework_1_1_property_multiline_string_dialog_handler.html":[3,0,0,94],
-"class_atom_tools_framework_1_1_property_string_browse_edit_ctrl.html":[3,0,0,99],
-"class_atom_tools_framework_1_1_property_string_browse_edit_handler.html":[3,0,0,100]
+"class_atom_tools_framework_1_1_property_multiline_string_dialog_handler.html":[3,0,0,94]
 };

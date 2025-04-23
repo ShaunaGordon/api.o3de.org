@@ -1,5 +1,7 @@
 var NAVTREEINDEX40 =
 {
+"struct_vk_pipeline_creation_feedback.html":[3,0,650],
+"struct_vk_pipeline_creation_feedback_create_info.html":[3,0,651],
 "struct_vk_pipeline_depth_stencil_state_create_info.html":[3,0,652],
 "struct_vk_pipeline_discard_rectangle_state_create_info_e_x_t.html":[3,0,653],
 "struct_vk_pipeline_dynamic_state_create_info.html":[3,0,654],

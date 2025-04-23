@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"struct_a_z_1_1_render_1_1_attachment_configuration.html#a8ad538f32100f087daea21af23f73118":[1,0,1,4,20,2],
 "struct_a_z_1_1_render_1_1_attachment_configuration.html#a958063ce725ca6a0795cedd5e60bb85e":[1,0,1,4,20,3],
 "struct_a_z_1_1_render_1_1_attachment_configuration.html#aca33eeed9952478df743ffcc8c2d253e":[1,0,1,4,20,4],
 "struct_a_z_1_1_render_1_1_decal_component_config.html":[1,0,1,4,35],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX33 =
 {
+"struct_a_z_1_1_r_p_i_1_1_common_buffer_descriptor.html":[3,0,1,7,33],
+"struct_a_z_1_1_r_p_i_1_1_common_buffer_descriptor.html#a560941241065f9f542e94242a9638be4":[3,0,1,7,33,0],
 "struct_a_z_1_1_r_p_i_1_1_compressed_morph_target_delta.html":[3,0,1,7,34],
 "struct_a_z_1_1_r_p_i_1_1_compute_pass_data.html":[3,0,1,7,36],
 "struct_a_z_1_1_r_p_i_1_1_copy_pass_data.html":[3,0,1,7,39],
@@ -247,7 +249,5 @@ var NAVTREEINDEX33 =
 "struct_a_z_1_1_r_p_i_1_1_pass_slot.html#acd1e092e7270a000b35372b033ef5eff":[3,0,1,7,176,5],
 "struct_a_z_1_1_r_p_i_1_1_pass_slot.html#ad6efacb4e04fe95496b7058f3ec81b94":[3,0,1,7,176,10],
 "struct_a_z_1_1_r_p_i_1_1_pass_slot.html#ae17a0705d8ef20f7d8a082f194291c1a":[3,0,1,7,176,3],
-"struct_a_z_1_1_r_p_i_1_1_pass_slot.html#ae4aeed80d5a7e1c2adda385a1ddca2cb":[3,0,1,7,176,7],
-"struct_a_z_1_1_r_p_i_1_1_pass_system_frame_statistics.html":[3,0,1,7,178],
-"struct_a_z_1_1_r_p_i_1_1_pass_validation_results.html":[3,0,1,7,184]
+"struct_a_z_1_1_r_p_i_1_1_pass_slot.html#ae4aeed80d5a7e1c2adda385a1ddca2cb":[3,0,1,7,176,7]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX39 =
 {
+"struct_vk_physical_device_acceleration_structure_properties_k_h_r.html":[3,0,399],
+"struct_vk_physical_device_address_binding_report_features_e_x_t.html":[3,0,400],
 "struct_vk_physical_device_amigo_profiling_features_s_e_c.html":[3,0,401],
 "struct_vk_physical_device_attachment_feedback_loop_dynamic_state_features_e_x_t.html":[3,0,403],
 "struct_vk_physical_device_attachment_feedback_loop_layout_features_e_x_t.html":[3,0,404],
@@ -247,7 +249,5 @@ var NAVTREEINDEX39 =
 "struct_vk_pipeline_compiler_control_create_info_a_m_d.html":[3,0,646],
 "struct_vk_pipeline_coverage_modulation_state_create_info_n_v.html":[3,0,647],
 "struct_vk_pipeline_coverage_reduction_state_create_info_n_v.html":[3,0,648],
-"struct_vk_pipeline_coverage_to_color_state_create_info_n_v.html":[3,0,649],
-"struct_vk_pipeline_creation_feedback.html":[3,0,650],
-"struct_vk_pipeline_creation_feedback_create_info.html":[3,0,651]
+"struct_vk_pipeline_coverage_to_color_state_create_info_n_v.html":[3,0,649]
 };

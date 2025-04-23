@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Open 3D Engine AtomLyIntegration Gem API Reference<span id="projectnumber">&#160;24.09.1</span>
+   <div id="projectname">Open 3D Engine AtomLyIntegration Gem API Reference<span id="projectnumber">&#160;24.09.2</span>
    </div>
    <div id="projectbrief">O3DE is an open-source, fully-featured, high-fidelity, modular 3D engine for building games and simulations, available to every industry.</div>
   </td>
@@ -91,6 +91,8 @@ virtual MaterialAssignmentMap&#160;</td><td class="memItemRight" valign="bottom"
 <tr class="separator:a706a404845e3ccab2b73597f82040d38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a37825be0c4c6418ad688f03482ae74" id="r_a7a37825be0c4c6418ad688f03482ae74"><td class="memItemLeft" align="right" valign="top">virtual const MaterialAssignmentMap &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a37825be0c4c6418ad688f03482ae74">GetMaterialMap</a> () const =0</td></tr>
 <tr class="separator:a7a37825be0c4c6418ad688f03482ae74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04cc9335fdfc45a8ec45864b8af2efd5" id="r_a04cc9335fdfc45a8ec45864b8af2efd5"><td class="memItemLeft" align="right" valign="top">virtual MaterialAssignmentMap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04cc9335fdfc45a8ec45864b8af2efd5">GetMaterialMapCopy</a> () const =0</td></tr>
+<tr class="separator:a04cc9335fdfc45a8ec45864b8af2efd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a531eb25720a43542e04694bc50fc6a41" id="r_a531eb25720a43542e04694bc50fc6a41"><td class="memItemLeft" align="right" valign="top"><a id="a531eb25720a43542e04694bc50fc6a41" name="a531eb25720a43542e04694bc50fc6a41"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>ClearMaterialMap</b> ()=0</td></tr>
 <tr class="memdesc:a531eb25720a43542e04694bc50fc6a41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears all overridden materials and properties from the material component. <br /></td></tr>
@@ -447,6 +449,32 @@ template&lt;typename T &gt; </td></tr>
 </table>
 </div><div class="memdoc">
 <p>Returns all materials and properties used by the material component. </p><dl class="section return"><dt>Returns</dt><dd>Map of material assigned data including materials, property overrides, and other parameters. </dd></dl>
+
+</div>
+</div>
+<a id="a04cc9335fdfc45a8ec45864b8af2efd5" name="a04cc9335fdfc45a8ec45864b8af2efd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04cc9335fdfc45a8ec45864b8af2efd5">&#9670;&#160;</a></span>GetMaterialMapCopy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual MaterialAssignmentMap AZ::Render::MaterialComponentRequests::GetMaterialMapCopy </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Similar as above, but returns a deep copy of all materials. This "Copy" function is useful for Lua because <a class="el" href="#a7a37825be0c4c6418ad688f03482ae74">GetMaterialMap()</a> returns a reference and Lua treats it a as a reference too. Making further chages to the material component, for example by calling <a class="el" href="#ab7feb4e10988cf61806e9e80fd9c548b">SetMaterialAssetId()</a> would indirectly affect the MaterialAssignmentMap that was returned by reference. To avoid this scenario, a Lua script can call this function to get an actual copy that remains unaffected by calling functions like <a class="el" href="#ab7feb4e10988cf61806e9e80fd9c548b">SetMaterialAssetId()</a>. </p>
 
 </div>
 </div>
@@ -888,7 +916,7 @@ template&lt;typename T &gt; </td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_a_z.html">AZ</a></li><li class="navelem"><b>Render</b></li><li class="navelem"><a class="el" href="class_a_z_1_1_render_1_1_material_component_requests.html">MaterialComponentRequests</a></li>
-    <li class="footer">Generated on Mon Dec 2 2024 14:39:21 for Open 3D Engine AtomLyIntegration Gem API Reference by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">Generated on Wed Apr 23 2025 10:47:55 for Open 3D Engine AtomLyIntegration Gem API Reference by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
   </ul>
 </div>
 </body>

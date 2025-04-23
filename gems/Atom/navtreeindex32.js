@@ -1,5 +1,7 @@
 var NAVTREEINDEX32 =
 {
+"struct_a_z_1_1_r_h_i_1_1_multi_device_dispatch_rays_arguments.html#adb672831a266a241be1b91cbef5870e4":[3,0,1,6,164,2],
+"struct_a_z_1_1_r_h_i_1_1_multi_device_dispatch_rays_indirect.html":[3,0,1,6,165],
 "struct_a_z_1_1_r_h_i_1_1_multi_device_draw_arguments.html":[3,0,1,6,168],
 "struct_a_z_1_1_r_h_i_1_1_multi_device_draw_arguments.html#ad6a82c13693360997cd81eb696853d9b":[3,0,1,6,168,0],
 "struct_a_z_1_1_r_h_i_1_1_multi_device_draw_item_properties.html":[3,0,1,6,170],
@@ -247,7 +249,5 @@ var NAVTREEINDEX32 =
 "struct_a_z_1_1_r_p_i_1_1_aux_geom_draw_1_1_aux_geom_dynamic_indexed_draw_arguments.html":[3,0,1,7,20,1],
 "struct_a_z_1_1_r_p_i_1_1_b_c1_block.html":[3,0,1,7,22],
 "struct_a_z_1_1_r_p_i_1_1_b_c4_block.html":[3,0,1,7,23],
-"struct_a_z_1_1_r_p_i_1_1_built_in_asset_handler_1_1_asset_handler_functions.html":[3,0,1,7,32,0],
-"struct_a_z_1_1_r_p_i_1_1_common_buffer_descriptor.html":[3,0,1,7,33],
-"struct_a_z_1_1_r_p_i_1_1_common_buffer_descriptor.html#a560941241065f9f542e94242a9638be4":[3,0,1,7,33,0]
+"struct_a_z_1_1_r_p_i_1_1_built_in_asset_handler_1_1_asset_handler_functions.html":[3,0,1,7,32,0]
 };

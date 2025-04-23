@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Open 3D Engine Atom Gem API Reference<span id="projectnumber">&#160;24.09.1</span>
+   <div id="projectname">Open 3D Engine Atom Gem API Reference<span id="projectnumber">&#160;24.09.2</span>
    </div>
    <div id="projectbrief">O3DE is an open-source, fully-featured, high-fidelity, modular 3D engine for building games and simulations, available to every industry.</div>
   </td>
@@ -161,9 +161,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>CanCompile</b> () con
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>NeedsCompile</b> () const</td></tr>
 <tr class="memdesc:ab57e79c1995d884f01d7aeccd6c1a0f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether the material has property changes that have not been compiled yet. <br /></td></tr>
 <tr class="separator:ab57e79c1995d884f01d7aeccd6c1a0f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05f094be3e5211190b2b235627f56714" id="r_a05f094be3e5211190b2b235627f56714"><td class="memItemLeft" align="right" valign="top"><a id="a05f094be3e5211190b2b235627f56714" name="a05f094be3e5211190b2b235627f56714"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>ConnectEvent</b> (OnMaterialShaderVariantReadyEvent::Handler &amp;handler)</td></tr>
-<tr class="memdesc:a05f094be3e5211190b2b235627f56714"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect a handler to listen to the event that a shader variant asset of the shaders used by this material is ready. <br /></td></tr>
+<tr class="memitem:a05f094be3e5211190b2b235627f56714" id="r_a05f094be3e5211190b2b235627f56714"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05f094be3e5211190b2b235627f56714">ConnectEvent</a> (OnMaterialShaderVariantReadyEvent::Handler &amp;handler)</td></tr>
 <tr class="separator:a05f094be3e5211190b2b235627f56714"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
@@ -208,6 +206,24 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>MaterialSystem</b></
       </table>
 </div><div class="memdoc">
 <p>Must be called after changing any material property values in order to apply those changes to the shader. Does nothing if <a class="el" href="#ab57e79c1995d884f01d7aeccd6c1a0f1" title="Returns whether the material has property changes that have not been compiled yet.">NeedsCompile()</a> is false or <a class="el" href="#a0fa8a65ace996c0f4e62f7675b581efd" title="Returns whether the material is ready to compile pending changes. (Materials can only be compiled onc...">CanCompile()</a> is false. </p><dl class="section return"><dt>Returns</dt><dd>whether compilation occurred </dd></dl>
+
+</div>
+</div>
+<a id="a05f094be3e5211190b2b235627f56714" name="a05f094be3e5211190b2b235627f56714"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05f094be3e5211190b2b235627f56714">&#9670;&#160;</a></span>ConnectEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AZ::RPI::Material::ConnectEvent </td>
+          <td>(</td>
+          <td class="paramtype">OnMaterialShaderVariantReadyEvent::Handler &amp;</td>          <td class="paramname"><span class="paramname"><em>handler</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Connect a handler to listen to the event that a shader variant asset of the shaders used by this material is ready. This is a thread safe function. </p>
 
 </div>
 </div>
@@ -411,7 +427,7 @@ template&lt;typename Type &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_a_z.html">AZ</a></li><li class="navelem"><b>RPI</b></li><li class="navelem"><a class="el" href="class_a_z_1_1_r_p_i_1_1_material.html">Material</a></li>
-    <li class="footer">Generated on Mon Dec 2 2024 14:39:19 for Open 3D Engine Atom Gem API Reference by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">Generated on Wed Apr 23 2025 10:47:53 for Open 3D Engine Atom Gem API Reference by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
   </ul>
 </div>
 </body>

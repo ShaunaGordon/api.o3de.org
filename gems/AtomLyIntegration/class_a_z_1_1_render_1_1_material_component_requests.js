@@ -17,6 +17,7 @@ var class_a_z_1_1_render_1_1_material_component_requests =
     [ "GetMaterialAssetIdOnDefaultSlot", "class_a_z_1_1_render_1_1_material_component_requests.html#a7354f0690be9212de87504b91f5702c3", null ],
     [ "GetMaterialLabel", "class_a_z_1_1_render_1_1_material_component_requests.html#a38b43dd08ffd9322cc94a3f2e1b3ae59", null ],
     [ "GetMaterialMap", "class_a_z_1_1_render_1_1_material_component_requests.html#a7a37825be0c4c6418ad688f03482ae74", null ],
+    [ "GetMaterialMapCopy", "class_a_z_1_1_render_1_1_material_component_requests.html#a04cc9335fdfc45a8ec45864b8af2efd5", null ],
     [ "GetModelUvOverrides", "class_a_z_1_1_render_1_1_material_component_requests.html#adda564ff34f50de110c44a1a3e7bb41d", null ],
     [ "GetPropertyValue", "class_a_z_1_1_render_1_1_material_component_requests.html#aa0ea83567bd1d7dc8303bc725ef47f4b", null ],
     [ "GetPropertyValues", "class_a_z_1_1_render_1_1_material_component_requests.html#ab1624afe507d968e55ba45079b9ab9ad", null ],

@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Open 3D Engine Atom Gem API Reference<span id="projectnumber">&#160;24.09.1</span>
+   <div id="projectname">Open 3D Engine Atom Gem API Reference<span id="projectnumber">&#160;24.09.2</span>
    </div>
    <div id="projectbrief">O3DE is an open-source, fully-featured, high-fidelity, modular 3D engine for building games and simulations, available to every industry.</div>
   </td>
@@ -69,7 +69,7 @@ $(function(){initNavTree('class_a_z_1_1_r_p_i_1_1_asset_utils_1_1_async_asset_lo
 
 <p><code>#include &lt;AssetUtils.h&gt;</code></p>
 
-<p>Inherits Data::AssetBus::Handler.</p>
+<p>Inherits Data::AssetBus::Handler, and SystemTickBus::Handler.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -95,7 +95,7 @@ template&lt;typename AssetDataT &gt; </td></tr>
 <tr class="separator:a0dcd5fda0a38ad73c491f2a0762b45e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>This class can be used to do basic asynchronous loading of assets without the need to implement multiple ebus functions to handle callbacks. It will invoke the provided callback function when the asset loads or errors. It will stop listening on destruction, so it should be held onto until the callback fires. </p>
+<div class="textblock"><p>This class can be used to do basic asynchronous loading of assets without the need to implement multiple ebus functions to handle callbacks. It will invoke the provided callback function when the asset loads or errors. It will stop listening on destruction, so it should be held onto until the callback fires. This class will always invoke the callback during OnSystemTick() to prevent deadlocks related with <a class="el" href="class_a_z_1_1_r_p_i_1_1_streaming_image.html">StreamingImage</a> assets. Here is a quick summary of the deadlock this class avoids: </p>
 </div><hr/>The documentation for this class was generated from the following files:<ul>
 <li>Gems/Atom/RPI/Code/Include/Atom/RPI.Reflect/Asset/<b>AssetUtils.h</b></li>
 <li>Gems/Atom/RPI/Code/Include/Atom/RPI.Reflect/Asset/<b>AssetUtils.inl</b></li>
@@ -106,7 +106,7 @@ template&lt;typename AssetDataT &gt; </td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_a_z.html">AZ</a></li><li class="navelem"><b>RPI</b></li><li class="navelem"><b>AssetUtils</b></li><li class="navelem"><a class="el" href="class_a_z_1_1_r_p_i_1_1_asset_utils_1_1_async_asset_loader.html">AsyncAssetLoader</a></li>
-    <li class="footer">Generated on Mon Dec 2 2024 14:39:20 for Open 3D Engine Atom Gem API Reference by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">Generated on Wed Apr 23 2025 10:47:53 for Open 3D Engine Atom Gem API Reference by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
   </ul>
 </div>
 </body>
