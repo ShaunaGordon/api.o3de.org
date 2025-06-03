@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Install deps
-        run: apt-get install doxygen
+        run: apt-get install -y doxygen
 
       - name: Get Version w/o dots
         run: INPUT=${{ inputs.version }}; echo "version_joined=${INPUT//./}" >> ${GITHUB_ENV}
