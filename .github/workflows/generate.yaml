@@ -1,0 +1,87 @@
+# This is a basic workflow that is manually triggered
+
+name: Generate Docs
+
+env:
+  version_joined: ''
+  O3DE_PATH: ''
+  O3DEORG_PATH: ''
+  PROJECT_NUMBER: ''
+  doxygen_path: ${{ github.workspace }}/sig-docs-community/tools/o3de-doxygen
+  api_path: ${{ github.workspace }}/api.o3de.org
+
+# Controls when the action will run. Workflow runs when manually triggered using the UI
+# or API.
+on:
+  workflow_dispatch:
+    # Inputs the workflow accepts.
+    inputs:
+      version:
+        # Friendly description to be shown in the UI instead of 'name'
+        description: 'Version (xx.yy.z)'
+        # Input has to be provided for the workflow to run
+        required: true
+        # The data type of the input
+        type: string
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "greet"
+  generate:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: ${{ env.doxygen_path }}
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - name: Get Version w/o dots
+        run: INPUT=${{ inputs.version }}; echo "version_joined=${INPUT//./}" >> ${GITHUB_ENV}
+      - name: Checkout O3DE
+        uses: actions/checkout@v4.2.2
+        with:
+          repository: o3de/o3de
+          # Grab the stabilization branch
+          ref: "stabilization/${{ env.version_joined }}"
+      - name: Checkout O3DE-extras
+        uses: actions/checkout@v4.2.2
+        with:
+          repository: o3de/o3de-extras
+          # Grab the stabilization branch
+          ref: "stabilization/${{ env.version_joined }}"
+      - name: Checkout sig-docs
+        uses: actions/checkout@v4.2.2
+        with:
+          repository: o3de/o3de-extras
+          # Grab the main branch
+          ref: "main"
+      - name: Checkout api.o3de.org
+        uses: actions/checkout@v4.2.2
+        with:
+          repository: o3de/api.o3de.org
+          # Grab the main branch
+          ref: main
+      - name: Set config
+        # Set the config information
+        run: |
+          echo "#! /bin/bash \n\nO3DE_PATH=${{ github.workspace }}/o3de \nO3DEORG_PATH=${{ github.workspace }}/api.o3de.org \nPROJECT_NUMBER=${{ inputs.version }}" > ${{ env.doxygen_path }}/config.sh
+      - name: Ensure scripts are executable
+        run: chmod +x *.sh
+      - name: Copy extras Gems
+        run: cp -r ${{ github.workspace }}/o3de-extras/Gems/* ${{ github.workspace }}/o3de/Gems
+      - name: Generate Framework
+        run: ./o3de-framework-apis.sh
+      - name: Generate Gems
+        run: ./o3de-framework-gems.sh
+      - name: Commit and Create PR
+        uses: peter-evans/create-pull-request@v7
+        with:
+          path: ${{ env.api_path }}
+          signoff: true
+          commit-message: "Automatic generation of API docs for version ${{ inputs.version }}."
+          branch: generate/${{ inputs.version }}
+          title: "Generate API docs for ${{ inputs.version }}"
+          body: "Automated change from ${{ github.action }} GitHub Action."
+  
