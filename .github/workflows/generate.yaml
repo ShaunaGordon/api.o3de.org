@@ -31,6 +31,8 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+      - name: Sanity check
+        run: echo ${{ github.workspace }}
       - name: Get Version w/o dots
         run: INPUT=${{ inputs.version }}; echo "version_joined=${INPUT//./}" >> ${GITHUB_ENV}
       - name: Checkout O3DE
