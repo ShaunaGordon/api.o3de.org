@@ -53,9 +53,9 @@ jobs:
         uses: actions/checkout@v4.2.2
         with:
           path: sig-docs-community
-          repository: o3de/sig-docs-community
+          repository: ShaunaGordon/sig-docs-community
           # Grab the main branch
-          ref: main
+          ref: next # TODO: Swap this back after next is merged
 
       - name: Set config
         # Set the config information
