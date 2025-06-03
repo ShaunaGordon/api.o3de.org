@@ -32,10 +32,6 @@ jobs:
           repository: o3de/api.o3de.org
           # Grab the main branch
           ref: main
-
-      - name: Sanity check
-        run: ls -la ${{ github.workspace }}
-
       - name: Checkout O3DE
         uses: actions/checkout@v4.2.2
         with:
@@ -62,10 +58,15 @@ jobs:
         # Set the config information
         run: |
           echo "#! /bin/bash \n\nO3DE_PATH=${{ env.o3de_path }} \nO3DEORG_PATH=${{ env.api_path }} \nPROJECT_NUMBER=${{ inputs.version }}" > ${{ env.doxygen_path }}/config.sh
+
+      - name: Debug
+        run: cat ${{ env.doxygen_path }}/config.sh
+        
       - name: Ensure scripts are executable
         run: chmod +x ${{ env.doxygen_path}}/*.sh
       - name: Copy extras Gems
         run: cp -r ${{ env.extras_path }}/Gems/* ${{ env.o3de_path }}/Gems
+
       - name: Generate Framework
         run: ${{ env.doxygen_path}}/o3de-framework-apis.sh
       - name: Generate Gems
