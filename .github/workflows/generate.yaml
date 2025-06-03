@@ -4,7 +4,11 @@ name: Generate Docs
 
 env:
   version_joined: ''
-  doxygen_path: sig-docs-community/tools/o3de-doxygen
+  doxygen_path: ${{ github.workspace }}/sig-docs-community/tools/o3de-doxygen
+  api_path: ${{ github.workspace }}/api.o3de.org
+  o3de_path: ${{ github.workspace }}/o3de
+  sig_path: ${{ github.workspace }}/sig-docs-community
+  extras_path: ${{ github.workspace }}/o3de-extras
 
 on:
   workflow_dispatch:
@@ -57,21 +61,20 @@ jobs:
       - name: Set config
         # Set the config information
         run: |
-          echo "#! /bin/bash \n\nO3DE_PATH=${{ github.workspace }}/o3de \nO3DEORG_PATH=${{ github.workspace }}/api.o3de.org \nPROJECT_NUMBER=${{ inputs.version }}" > ${{ env.doxygen_path }}/config.sh
-      - name: Move to Doxygen path
-        run: cd ${{ github.workspace}}/${{ env.doxygen_path }}
+          echo "#! /bin/bash \n\nO3DE_PATH=${{ env.o3de_path }} \nO3DEORG_PATH=${{ env.api_path }} \nPROJECT_NUMBER=${{ inputs.version }}" > ${{ env.doxygen_path }}/config.sh
       - name: Ensure scripts are executable
-        run: chmod +x *.sh
+        run: chmod +x ${{ env.doxygen_path}}/*.sh
       - name: Copy extras Gems
-        run: cp -r ${{ github.workspace }}/o3de-extras/Gems/* ${{ github.workspace }}/o3de/Gems
+        run: cp -r ${{ env.extras_path }}/Gems/* ${{ env.o3de_path }}/Gems
       - name: Generate Framework
-        run: ./o3de-framework-apis.sh
+        run: ${{ env.doxygen_path}}/o3de-framework-apis.sh
       - name: Generate Gems
-        run: ./o3de-framework-gems.sh
+        run: ${{ env.doxygen_path}}/o3de-framework-gems.sh
       - name: Commit and Create PR
         uses: peter-evans/create-pull-request@v7
         with:
           signoff: true
+          path: ${{ env.api_path }}
           commit-message: "Automatic generation of API docs for version ${{ inputs.version }}."
           branch: generate/${{ inputs.version }}
           title: "Generate API docs for ${{ inputs.version }}"
