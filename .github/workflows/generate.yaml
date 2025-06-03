@@ -24,6 +24,7 @@ jobs:
       - name: Checkout api.o3de.org
         uses: actions/checkout@v4.2.2
         with:
+          path: api.o3de.org
           repository: o3de/api.o3de.org
           # Grab the main branch
           ref: main
@@ -34,21 +35,21 @@ jobs:
       - name: Checkout O3DE
         uses: actions/checkout@v4.2.2
         with:
-          path: ${{ runner.temp }}/o3de
+          path: o3de
           repository: o3de/o3de
           # Grab the stabilization branch
           ref: "stabilization/${{ env.version_joined }}"
       - name: Checkout O3DE-extras
         uses: actions/checkout@v4.2.2
         with:
-          path: ${{ runner.temp }}/o3de-extras
+          path: o3de-extras
           repository: o3de/o3de-extras
           # Grab the stabilization branch
           ref: "stabilization/${{ env.version_joined }}"
       - name: Checkout sig-docs
         uses: actions/checkout@v4.2.2
         with:
-          path: ${{ runner.temp }}/sig-docs-community
+          path: sig-docs-community
           repository: o3de/sig-docs-community
           # Grab the main branch
           ref: main
@@ -56,13 +57,13 @@ jobs:
       - name: Set config
         # Set the config information
         run: |
-          echo "#! /bin/bash \n\nO3DE_PATH=${{ runner.temp }}/o3de \nO3DEORG_PATH=${{ runner.temp }}/api.o3de.org \nPROJECT_NUMBER=${{ inputs.version }}" > ${{ env.doxygen_path }}/config.sh
+          echo "#! /bin/bash \n\nO3DE_PATH=${{ github.workspace }}/o3de \nO3DEORG_PATH=${{ github.workspace }}/api.o3de.org \nPROJECT_NUMBER=${{ inputs.version }}" > ${{ env.doxygen_path }}/config.sh
       - name: Move to Doxygen path
-        run: cd ${{ runner.temp}}/${{ env.doxygen_path }}
+        run: cd ${{ github.workspace}}/${{ env.doxygen_path }}
       - name: Ensure scripts are executable
         run: chmod +x *.sh
       - name: Copy extras Gems
-        run: cp -r ${{ runner.temp }}/o3de-extras/Gems/* ${{ runner.temp }}/o3de/Gems
+        run: cp -r ${{ github.workspace }}/o3de-extras/Gems/* ${{ github.workspace }}/o3de/Gems
       - name: Generate Framework
         run: ./o3de-framework-apis.sh
       - name: Generate Gems
