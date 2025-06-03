@@ -57,11 +57,15 @@ jobs:
       - name: Set config
         # Set the config information
         run: |
-          echo "#! /bin/bash \n\nO3DE_PATH=${{ env.o3de_path }} \nO3DEORG_PATH=${{ env.api_path }} \nPROJECT_NUMBER=${{ inputs.version }}" > ${{ env.doxygen_path }}/config.sh
+          echo "#! /bin/bash 
+
+          O3DE_PATH=${{ env.o3de_path }} 
+          O3DEORG_PATH=${{ env.api_path }}
+          PROJECT_NUMBER=${{ inputs.version }}" > ${{ env.doxygen_path }}/config.sh
 
       - name: Debug
         run: cat ${{ env.doxygen_path }}/config.sh
-        
+
       - name: Ensure scripts are executable
         run: chmod +x ${{ env.doxygen_path}}/*.sh
       - name: Copy extras Gems
