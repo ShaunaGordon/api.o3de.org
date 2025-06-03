@@ -31,10 +31,6 @@ jobs:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
-    defaults:
-      run:
-        working-directory: ${{ env.doxygen_path }}
-
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Get Version w/o dots
@@ -67,6 +63,8 @@ jobs:
         # Set the config information
         run: |
           echo "#! /bin/bash \n\nO3DE_PATH=${{ github.workspace }}/o3de \nO3DEORG_PATH=${{ github.workspace }}/api.o3de.org \nPROJECT_NUMBER=${{ inputs.version }}" > ${{ env.doxygen_path }}/config.sh
+      - name: Move to Doxygen path
+        run: cd ${{ github.workspace }}
       - name: Ensure scripts are executable
         run: chmod +x *.sh
       - name: Copy extras Gems
