@@ -18,8 +18,6 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - name: Sanity check
-        run: ls ${{ github.workspace }}
       - name: Get Version w/o dots
         run: INPUT=${{ inputs.version }}; echo "version_joined=${INPUT//./}" >> ${GITHUB_ENV}
 
@@ -29,6 +27,10 @@ jobs:
           repository: o3de/api.o3de.org
           # Grab the main branch
           ref: main
+
+      - name: Sanity check
+        run: ls -la ${{ github.workspace }}
+
       - name: Checkout O3DE
         uses: actions/checkout@v4.2.2
         with:
