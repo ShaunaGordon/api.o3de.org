@@ -4,11 +4,9 @@ name: Generate Docs
 
 env:
   version_joined: ''
-  O3DE_PATH: ''
-  O3DEORG_PATH: ''
-  PROJECT_NUMBER: ''
-  doxygen_path: ${{ github.workspace }}/sig-docs-community/tools/o3de-doxygen
-  api_path: ${{ github.workspace }}/api.o3de.org
+  workspace: /home/runner/work
+  doxygen_path: /home/runner/work/sig-docs-community/tools/o3de-doxygen
+  api_path: /home/runner/work/api.o3de.org
 
 # Controls when the action will run. Workflow runs when manually triggered using the UI
 # or API.
@@ -38,37 +36,41 @@ jobs:
       - name: Checkout O3DE
         uses: actions/checkout@v4.2.2
         with:
+          path: ${{ env.workspace }}/o3de
           repository: o3de/o3de
           # Grab the stabilization branch
           ref: "stabilization/${{ env.version_joined }}"
       - name: Checkout O3DE-extras
         uses: actions/checkout@v4.2.2
         with:
+          path: ${{ env.workspace }}/o3de-extras
           repository: o3de/o3de-extras
           # Grab the stabilization branch
           ref: "stabilization/${{ env.version_joined }}"
       - name: Checkout sig-docs
         uses: actions/checkout@v4.2.2
         with:
-          repository: o3de/o3de-extras
+          path: ${{ env.workspace }}/sig-docs-community
+          repository: o3de/sig-docs-community
           # Grab the main branch
-          ref: "main"
+          ref: main
       - name: Checkout api.o3de.org
         uses: actions/checkout@v4.2.2
         with:
+          path: ${{ env.api_path }}
           repository: o3de/api.o3de.org
           # Grab the main branch
           ref: main
       - name: Set config
         # Set the config information
         run: |
-          echo "#! /bin/bash \n\nO3DE_PATH=${{ github.workspace }}/o3de \nO3DEORG_PATH=${{ github.workspace }}/api.o3de.org \nPROJECT_NUMBER=${{ inputs.version }}" > ${{ env.doxygen_path }}/config.sh
+          echo "#! /bin/bash \n\nO3DE_PATH=${{ env.workspace }}/o3de \nO3DEORG_PATH=${{ env.workspace }}/api.o3de.org \nPROJECT_NUMBER=${{ inputs.version }}" > ${{ env.doxygen_path }}/config.sh
       - name: Move to Doxygen path
-        run: cd ${{ github.workspace }}
+        run: cd ${{ env.doxygen_path }}
       - name: Ensure scripts are executable
         run: chmod +x *.sh
       - name: Copy extras Gems
-        run: cp -r ${{ github.workspace }}/o3de-extras/Gems/* ${{ github.workspace }}/o3de/Gems
+        run: cp -r ${{ env.workspace }}/o3de-extras/Gems/* ${{ env.workspace }}/o3de/Gems
       - name: Generate Framework
         run: ./o3de-framework-apis.sh
       - name: Generate Gems
