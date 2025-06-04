@@ -77,7 +77,7 @@ jobs:
       - name: Generate Framework
         run: ${{ env.doxygen_path}}/o3de-framework-apis.sh
       - name: Generate Gems
-        run: ${{ env.doxygen_path}}/o3de-framework-gems.sh
+        run: ${{ env.doxygen_path}}/o3de-gem-apis.sh
       - name: Commit and Create PR
         uses: peter-evans/create-pull-request@v7
         with:
