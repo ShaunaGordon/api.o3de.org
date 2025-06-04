@@ -1,6 +1,6 @@
 var class_az_framework_1_1_input_device_mouse_1_1_implementation =
 [
-    [ "RawButtonEventQueueByIdMap", "class_az_framework_1_1_input_device_mouse_1_1_implementation.html#a24a31c4873949dc84764006277bd8d95", null ],
+    [ "RawButtonEventQueueByIdMap", "class_az_framework_1_1_input_device_mouse_1_1_implementation.html#a9aa67bce09ad70b9d2fdf64cc2fc9979", null ],
     [ "Implementation", "class_az_framework_1_1_input_device_mouse_1_1_implementation.html#a9d5164e64f0c381770f21b1dd615eac8", null ],
     [ "~Implementation", "class_az_framework_1_1_input_device_mouse_1_1_implementation.html#af2228fb3dd50f36fddc8b542333be6e1", null ],
     [ "Create", "class_az_framework_1_1_input_device_mouse_1_1_implementation.html#aefe36d6dd6d090b3947d19761bfe8ed2", null ],

@@ -42,7 +42,6 @@ var hierarchy =
       [ "EditorPythonBindings::TypeConverterTuple", "class_editor_python_bindings_1_1_type_converter_tuple.html", null ]
     ] ],
     [ "EditorPythonBindings::PythonProxyObject", "class_editor_python_bindings_1_1_python_proxy_object.html", null ],
-    [ "EditorPythonBindings::Text::PythonBehaviorDescription", "class_editor_python_bindings_1_1_text_1_1_python_behavior_description.html", null ],
     [ "EditorPythonBindingsNotificationBus::Handler", null, [
       [ "EditorPythonBindings::PythonLogSymbolsComponent", "class_editor_python_bindings_1_1_python_log_symbols_component.html", null ]
     ] ],
@@ -59,8 +58,5 @@ var hierarchy =
     ] ],
     [ "ToolBarManagerRequestBus::Handler", null, [
       [ "EditorPythonBindings::PythonActionManagerHandler", "class_editor_python_bindings_1_1_python_action_manager_handler.html", null ]
-    ] ],
-    [ "type_caster_base", null, [
-      [ "pybind11::detail::type_caster< EditorPythonBindings::PythonProxyObject >", "structpybind11_1_1detail_1_1type__caster_3_01_editor_python_bindings_1_1_python_proxy_object_01_4.html", null ]
     ] ]
 ];

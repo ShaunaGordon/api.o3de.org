@@ -3,7 +3,6 @@ var NAVTREEINDEX0 =
 "annotated.html":[0,0],
 "class_a_z_1_1_render_1_1_render_actor_settings.html":[0,0,0,0,0],
 "class_a_z_1_1_render_1_1_render_actor_settings.html#a4049de64d5c69c00648a30c0bdaeedb0":[0,0,0,0,0,0],
-"class_a_z_1_1_serialize_generic_type_info_3_01_a_z_std_1_1shared__ptr_3_01const_01_e_motion_f_x_d128eab16e919d1f69b3362a44533d34.html":[0,0,0,1,0],
 "class_command_system_1_1_anim_graph_copy_paste_data.html":[0,0,2,0],
 "class_command_system_1_1_anim_graph_copy_paste_data.html#a61fea4f8c07400be5199b6a0f9dbe687":[0,0,2,0,0],
 "class_command_system_1_1_anim_graph_copy_paste_data.html#a9ba3e3b34902d00e1446ef6ea0a206e1":[0,0,2,0,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX0 =
 "class_e_m_studio_1_1_dirty_file_manager.html":[0,0,4,38],
 "class_e_m_studio_1_1_dock_widget_plugin.html":[0,0,4,39],
 "class_e_m_studio_1_1_drag_table_widget.html":[0,0,4,40],
-"class_e_m_studio_1_1_e_m_studio_manager.html":[0,0,4,41]
+"class_e_m_studio_1_1_e_m_studio_manager.html":[0,0,4,41],
+"class_e_m_studio_1_1_e_m_studio_plugin.html":[0,0,4,42]
 };

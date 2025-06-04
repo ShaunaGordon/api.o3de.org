@@ -10,7 +10,6 @@ var class_a_z_1_1_metrics_1_1_json_trace_event_logger =
     [ "RecordAsyncEventStart", "class_a_z_1_1_metrics_1_1_json_trace_event_logger.html#aca6621d19fe987fec0a9f3e3ff4856c3", null ],
     [ "RecordCompleteEvent", "class_a_z_1_1_metrics_1_1_json_trace_event_logger.html#afcebd627ccdc27454215fbe509a8b0ad", null ],
     [ "RecordCounterEvent", "class_a_z_1_1_metrics_1_1_json_trace_event_logger.html#a4651bff6177a4859b1c9516dd6f2b934", null ],
-    [ "RecordDurationEventBegin", "class_a_z_1_1_metrics_1_1_json_trace_event_logger.html#a522f9c9c37d28e9f7c873b0e474e34ef", null ],
     [ "RecordDurationEventEnd", "class_a_z_1_1_metrics_1_1_json_trace_event_logger.html#a03407214d4742c9ce3a23e2063cd317b", null ],
     [ "RecordInstantEvent", "class_a_z_1_1_metrics_1_1_json_trace_event_logger.html#a60845964ad7eb22c214f9796a5eec148", null ],
     [ "ResetSettingsHandler", "class_a_z_1_1_metrics_1_1_json_trace_event_logger.html#a1050d61ba5bdc3066b47bb043ac32eef", null ],

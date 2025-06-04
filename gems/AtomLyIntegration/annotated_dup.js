@@ -27,9 +27,6 @@ var annotated_dup =
       [ "EMotionFXAtom", null, [
         [ "EditorSystemComponent", "class_a_z_1_1_e_motion_f_x_atom_1_1_editor_system_component.html", null ]
       ] ],
-      [ "LYIntegration", null, [
-        [ "ImguiAtomSystemComponent", "class_a_z_1_1_l_y_integration_1_1_imgui_atom_system_component.html", null ]
-      ] ],
       [ "LyIntegration", null, [
         [ "SharedPreviewContent", "class_a_z_1_1_ly_integration_1_1_shared_preview_content.html", null ],
         [ "SharedPreviewer", "class_a_z_1_1_ly_integration_1_1_shared_previewer.html", null ],
@@ -37,6 +34,9 @@ var annotated_dup =
         [ "SharedThumbnail", "class_a_z_1_1_ly_integration_1_1_shared_thumbnail.html", "class_a_z_1_1_ly_integration_1_1_shared_thumbnail" ],
         [ "SharedThumbnailCache", "class_a_z_1_1_ly_integration_1_1_shared_thumbnail_cache.html", null ],
         [ "SharedThumbnailRenderer", "class_a_z_1_1_ly_integration_1_1_shared_thumbnail_renderer.html", null ]
+      ] ],
+      [ "LYIntegration", null, [
+        [ "ImguiAtomSystemComponent", "class_a_z_1_1_l_y_integration_1_1_imgui_atom_system_component.html", null ]
       ] ],
       [ "Render", null, [
         [ "EditorMaterialComponentExporter", null, [
@@ -251,6 +251,11 @@ var annotated_dup =
         [ "RadiusWeightModifierComponent", "class_a_z_1_1_render_1_1_radius_weight_modifier_component.html", null ],
         [ "RadiusWeightModifierComponentConfig", "class_a_z_1_1_render_1_1_radius_weight_modifier_component_config.html", null ],
         [ "RadiusWeightModifierComponentController", "class_a_z_1_1_render_1_1_radius_weight_modifier_component_controller.html", null ],
+        [ "RayTracingDebugComponent", "class_a_z_1_1_render_1_1_ray_tracing_debug_component.html", null ],
+        [ "RayTracingDebugComponentConfig", "class_a_z_1_1_render_1_1_ray_tracing_debug_component_config.html", null ],
+        [ "RayTracingDebugComponentController", "class_a_z_1_1_render_1_1_ray_tracing_debug_component_controller.html", null ],
+        [ "RayTracingDebugEditorComponent", "class_a_z_1_1_render_1_1_ray_tracing_debug_editor_component.html", null ],
+        [ "RayTracingDebugRequests", "class_a_z_1_1_render_1_1_ray_tracing_debug_requests.html", null ],
         [ "ReflectionProbeComponent", "class_a_z_1_1_render_1_1_reflection_probe_component.html", null ],
         [ "ReflectionProbeComponentConfig", "class_a_z_1_1_render_1_1_reflection_probe_component_config.html", null ],
         [ "ReflectionProbeComponentController", "class_a_z_1_1_render_1_1_reflection_probe_component_controller.html", null ],

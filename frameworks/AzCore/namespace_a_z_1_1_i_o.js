@@ -2,7 +2,6 @@ var namespace_a_z_1_1_i_o =
 [
     [ "parser", "namespace_a_z_1_1_i_o_1_1parser.html", "namespace_a_z_1_1_i_o_1_1parser" ],
     [ "AverageWindow", "class_a_z_1_1_i_o_1_1_average_window.html", "class_a_z_1_1_i_o_1_1_average_window" ],
-    [ "BasicPath", "class_a_z_1_1_i_o_1_1_basic_path.html", "class_a_z_1_1_i_o_1_1_basic_path" ],
     [ "BlockCache", "class_a_z_1_1_i_o_1_1_block_cache.html", "class_a_z_1_1_i_o_1_1_block_cache" ],
     [ "BlockCacheConfig", "struct_a_z_1_1_i_o_1_1_block_cache_config.html", "struct_a_z_1_1_i_o_1_1_block_cache_config" ],
     [ "ByteContainerStream", "class_a_z_1_1_i_o_1_1_byte_container_stream.html", "class_a_z_1_1_i_o_1_1_byte_container_stream" ],
@@ -67,8 +66,8 @@ var namespace_a_z_1_1_i_o =
     [ "WindowsStorageDriveConfig", "class_a_z_1_1_i_o_1_1_windows_storage_drive_config.html", null ],
     [ "WritableStreamType", "struct_a_z_1_1_i_o_1_1_writable_stream_type.html", null ],
     [ "WritableStreamType< true >", "struct_a_z_1_1_i_o_1_1_writable_stream_type_3_01true_01_4.html", null ],
-    [ "FixedMaxPathString", "namespace_a_z_1_1_i_o.html#a2219dce5502f87098719060151c43c01", null ],
-    [ "Path", "namespace_a_z_1_1_i_o.html#ad324487fa913f9bafbaa9128025a7b44", null ],
+    [ "FixedMaxPathString", "namespace_a_z_1_1_i_o.html#a77ac8b4aa8397ec4a2fdf123442b8bbc", null ],
+    [ "Path", "namespace_a_z_1_1_i_o.html#a6d21ec0564733f951fd53d1af2152e23", null ],
     [ "OpenMode", "namespace_a_z_1_1_i_o.html#ad47e72ec86c619fc4165fd0f45e92cd2", [
       [ "Invalid", "namespace_a_z_1_1_i_o.html#ad47e72ec86c619fc4165fd0f45e92cd2a4bbb8f967da6d1a610596d7257179c2b", null ],
       [ "ModeRead", "namespace_a_z_1_1_i_o.html#ad47e72ec86c619fc4165fd0f45e92cd2a78da0902b85c420b125b8a083559cfbc", null ],
@@ -81,7 +80,6 @@ var namespace_a_z_1_1_i_o =
     ] ],
     [ "CollectIoHardwareInformation", "namespace_a_z_1_1_i_o.html#a3685c02a28173c6fd95e3e2caf952b41", null ],
     [ "FileTimeToMSecsSincePosixEpoch", "namespace_a_z_1_1_i_o.html#aac7a9fd16ea1a238cbb6d2bf7cd2f93c", null ],
-    [ "hash_value", "namespace_a_z_1_1_i_o.html#ad93d8a0244701b2a5427ea7b82d4cb98", null ],
     [ "hash_value", "namespace_a_z_1_1_i_o.html#a5158a7039eef3c27879797ec45eab267", null ],
     [ "NameMatchesFilter", "namespace_a_z_1_1_i_o.html#adc062d2cebc6676b76f52326ef5b472f", null ],
     [ "RetryOpenStream", "namespace_a_z_1_1_i_o.html#a8c8eed9c5d329cfb5ee4d04ab807e697", null ],

@@ -341,14 +341,16 @@ var hierarchy =
       ] ]
     ] ],
     [ "AZ::EnvironmentVariable< T >", "class_a_z_1_1_environment_variable.html", null ],
-    [ "AZ::EnvironmentVariable< AzToolsFramework::AssetBrowser::AssetBrowserFavoritesManager * >", "class_a_z_1_1_environment_variable.html", null ],
-    [ "AZ::EnvironmentVariable< AzToolsFramework::AssetBrowser::EntryCache * >", "class_a_z_1_1_environment_variable.html", null ],
     [ "AZ::FixedVertices", null, [
       [ "AzToolsFramework::FixedVerticesArray< Vertex, Count >", "class_az_tools_framework_1_1_fixed_vertices_array.html", null ]
     ] ],
     [ "AZ::Interface::Registrar", null, [
-      [ "AssetProcessor::ToolsAssetCatalogComponent", "class_asset_processor_1_1_tools_asset_catalog_component.html", null ],
-      [ "AzToolsFramework::MetadataManager", "class_az_tools_framework_1_1_metadata_manager.html", null ],
+      [ "AzToolsFramework::MetadataManager", "class_az_tools_framework_1_1_metadata_manager.html", null ]
+    ] ],
+    [ "AZ::Interface::Registrar", null, [
+      [ "AssetProcessor::ToolsAssetCatalogComponent", "class_asset_processor_1_1_tools_asset_catalog_component.html", null ]
+    ] ],
+    [ "AZ::Interface::Registrar", null, [
       [ "AzToolsFramework::UuidUtilComponent", "class_az_tools_framework_1_1_uuid_util_component.html", null ]
     ] ],
     [ "AZ::JsonEntityIdSerializer::JsonEntityIdMapper", null, [
@@ -551,7 +553,6 @@ var hierarchy =
     ] ],
     [ "AZStd::equal_to< AzToolsFramework::Thumbnailer::SharedThumbnailKey >", "struct_a_z_std_1_1equal__to_3_01_az_tools_framework_1_1_thumbnailer_1_1_shared_thumbnail_key_01_4.html", null ],
     [ "AZStd::hash< AZ::Data::Asset< AZ::Data::AssetData > >", "struct_a_z_std_1_1hash_3_01_a_z_1_1_data_1_1_asset_3_01_a_z_1_1_data_1_1_asset_data_01_4_01_4.html", null ],
-    [ "AZStd::hash< AzToolsFramework::AssetDatabase::PathOrUuid >", "struct_a_z_std_1_1hash_3_01_az_tools_framework_1_1_asset_database_1_1_path_or_uuid_01_4.html", null ],
     [ "AZStd::hash< AzToolsFramework::AssetDatabase::ProductDependencyDatabaseEntry >", "struct_a_z_std_1_1hash_3_01_az_tools_framework_1_1_asset_database_1_1_product_dependency_database_entry_01_4.html", null ],
     [ "AZStd::hash< AzToolsFramework::Thumbnailer::SharedThumbnailKey >", "struct_a_z_std_1_1hash_3_01_az_tools_framework_1_1_thumbnailer_1_1_shared_thumbnail_key_01_4.html", null ],
     [ "AzToolsFramework::ActionContextProperties", "struct_az_tools_framework_1_1_action_context_properties.html", null ],
@@ -787,12 +788,6 @@ var hierarchy =
       [ "AzToolsFramework::SplineHoverSelection", "class_az_tools_framework_1_1_spline_hover_selection.html", null ]
     ] ],
     [ "AzToolsFramework::IdType< T >", "class_az_tools_framework_1_1_id_type.html", null ],
-    [ "AzToolsFramework::IdType< struct ButtonIdType >", "class_az_tools_framework_1_1_id_type.html", null ],
-    [ "AzToolsFramework::IdType< struct ClusterIdType >", "class_az_tools_framework_1_1_id_type.html", null ],
-    [ "AzToolsFramework::IdType< struct ManipulatorManagerType >", "class_az_tools_framework_1_1_id_type.html", null ],
-    [ "AzToolsFramework::IdType< struct ManipulatorType >", "class_az_tools_framework_1_1_id_type.html", null ],
-    [ "AzToolsFramework::IdType< struct RegisteredBoundType >", "class_az_tools_framework_1_1_id_type.html", null ],
-    [ "AzToolsFramework::IdType< struct SwitcherIdType >", "class_az_tools_framework_1_1_id_type.html", null ],
     [ "AzToolsFramework::IMetadataRequests", "struct_az_tools_framework_1_1_i_metadata_requests.html", null ],
     [ "AzToolsFramework::IndexedTranslationManipulator< Vertex >", "struct_az_tools_framework_1_1_indexed_translation_manipulator.html", null ],
     [ "AzToolsFramework::IndexedTranslationManipulator< Vertex >::VertexLookup", "struct_az_tools_framework_1_1_indexed_translation_manipulator_1_1_vertex_lookup.html", null ],
@@ -886,17 +881,15 @@ var hierarchy =
       [ "AzToolsFramework::Picking::BoundShapeSpline", "class_az_tools_framework_1_1_picking_1_1_bound_shape_spline.html", null ],
       [ "AzToolsFramework::Picking::BoundShapeTorus", "class_az_tools_framework_1_1_picking_1_1_bound_shape_torus.html", null ]
     ] ],
-    [ "AzToolsFramework::Picking::BoundShapeInterface", "class_az_tools_framework_1_1_picking_1_1_bound_shape_interface.html", [
-      [ "AzToolsFramework::Picking::ManipulatorBoundBox", "class_az_tools_framework_1_1_picking_1_1_manipulator_bound_box.html", null ],
-      [ "AzToolsFramework::Picking::ManipulatorBoundCone", "class_az_tools_framework_1_1_picking_1_1_manipulator_bound_cone.html", null ],
-      [ "AzToolsFramework::Picking::ManipulatorBoundCylinder", "class_az_tools_framework_1_1_picking_1_1_manipulator_bound_cylinder.html", null ],
-      [ "AzToolsFramework::Picking::ManipulatorBoundLineSegment", "class_az_tools_framework_1_1_picking_1_1_manipulator_bound_line_segment.html", null ],
-      [ "AzToolsFramework::Picking::ManipulatorBoundQuad", "class_az_tools_framework_1_1_picking_1_1_manipulator_bound_quad.html", null ],
-      [ "AzToolsFramework::Picking::ManipulatorBoundSphere", "class_az_tools_framework_1_1_picking_1_1_manipulator_bound_sphere.html", null ],
-      [ "AzToolsFramework::Picking::ManipulatorBoundSpline", "class_az_tools_framework_1_1_picking_1_1_manipulator_bound_spline.html", null ],
-      [ "AzToolsFramework::Picking::ManipulatorBoundTorus", "class_az_tools_framework_1_1_picking_1_1_manipulator_bound_torus.html", null ]
-    ] ],
+    [ "AzToolsFramework::Picking::ManipulatorBoundBox", "class_az_tools_framework_1_1_picking_1_1_manipulator_bound_box.html", null ],
+    [ "AzToolsFramework::Picking::ManipulatorBoundCone", "class_az_tools_framework_1_1_picking_1_1_manipulator_bound_cone.html", null ],
+    [ "AzToolsFramework::Picking::ManipulatorBoundCylinder", "class_az_tools_framework_1_1_picking_1_1_manipulator_bound_cylinder.html", null ],
+    [ "AzToolsFramework::Picking::ManipulatorBoundLineSegment", "class_az_tools_framework_1_1_picking_1_1_manipulator_bound_line_segment.html", null ],
     [ "AzToolsFramework::Picking::ManipulatorBoundManager", "class_az_tools_framework_1_1_picking_1_1_manipulator_bound_manager.html", null ],
+    [ "AzToolsFramework::Picking::ManipulatorBoundQuad", "class_az_tools_framework_1_1_picking_1_1_manipulator_bound_quad.html", null ],
+    [ "AzToolsFramework::Picking::ManipulatorBoundSphere", "class_az_tools_framework_1_1_picking_1_1_manipulator_bound_sphere.html", null ],
+    [ "AzToolsFramework::Picking::ManipulatorBoundSpline", "class_az_tools_framework_1_1_picking_1_1_manipulator_bound_spline.html", null ],
+    [ "AzToolsFramework::Picking::ManipulatorBoundTorus", "class_az_tools_framework_1_1_picking_1_1_manipulator_bound_torus.html", null ],
     [ "AzToolsFramework::Picking::RaySelectInfo", "struct_az_tools_framework_1_1_picking_1_1_ray_select_info.html", null ],
     [ "AzToolsFramework::PlanarManipulator::Action", "struct_az_tools_framework_1_1_planar_manipulator_1_1_action.html", null ],
     [ "AzToolsFramework::PlanarManipulator::Current", "struct_az_tools_framework_1_1_planar_manipulator_1_1_current.html", null ],
@@ -997,78 +990,43 @@ var hierarchy =
     ] ],
     [ "AzToolsFramework::PropertyEditorToolsSystemInterface::HandlerData", "struct_az_tools_framework_1_1_property_editor_tools_system_interface_1_1_handler_data.html", null ],
     [ "AzToolsFramework::PropertyHandlerBase", "class_az_tools_framework_1_1_property_handler_base.html", [
-      [ "AzToolsFramework::PropertyHandler_Internal< AudioControlSelectorWidget >", null, [
-        [ "AzToolsFramework::TypedPropertyHandler_Internal< CReflectedVarAudioControl, AudioControlSelectorWidget >", null, [
+      [ "AzToolsFramework::PropertyHandler_Internal< WidgetType >", null, [
+        [ "AzToolsFramework::GenericPropertyHandler< QLabel >", "class_az_tools_framework_1_1_generic_property_handler.html", [
+          [ "AzToolsFramework::LabelHandler", "class_az_tools_framework_1_1_label_handler.html", null ]
+        ] ],
+        [ "AzToolsFramework::GenericPropertyHandler< WidgetType >", "class_az_tools_framework_1_1_generic_property_handler.html", null ],
+        [ "AzToolsFramework::TypedPropertyHandler_Internal< PropertyType, WidgetType >", null, [
           [ "AzToolsFramework::PropertyHandler< CReflectedVarAudioControl, AudioControlSelectorWidget >", "class_az_tools_framework_1_1_property_handler.html", [
             [ "AzToolsFramework::AudioControlSelectorWidgetHandler", "class_az_tools_framework_1_1_audio_control_selector_widget_handler.html", null ]
-          ] ]
-        ] ]
-      ] ],
-      [ "AzToolsFramework::PropertyHandler_Internal< PropertyCRCCtrl >", null, [
-        [ "AzToolsFramework::TypedPropertyHandler_Internal< AZ::Crc32, PropertyCRCCtrl >", null, [
-          [ "AzToolsFramework::PropertyHandler< AZ::Crc32, PropertyCRCCtrl >", "class_az_tools_framework_1_1_property_handler.html", [
-            [ "AzToolsFramework::CRC32HandlerCommon< AZ::Crc32 >", "class_az_tools_framework_1_1_c_r_c32_handler_common.html", [
-              [ "AzToolsFramework::CRC32Handler", "class_az_tools_framework_1_1_c_r_c32_handler.html", null ]
-            ] ]
-          ] ]
-        ] ],
-        [ "AzToolsFramework::TypedPropertyHandler_Internal< ValueType, PropertyCRCCtrl >", null, [
+          ] ],
+          [ "AzToolsFramework::PropertyHandler< AZ::Crc32, PropertyCRCCtrl >", "class_az_tools_framework_1_1_property_handler.html", null ],
           [ "AzToolsFramework::PropertyHandler< ValueType, PropertyCRCCtrl >", "class_az_tools_framework_1_1_property_handler.html", [
             [ "AzToolsFramework::CRC32HandlerCommon< ValueType >", "class_az_tools_framework_1_1_c_r_c32_handler_common.html", null ]
-          ] ]
-        ] ],
-        [ "AzToolsFramework::TypedPropertyHandler_Internal< AZ::u32, PropertyCRCCtrl >", null, [
-          [ "AzToolsFramework::PropertyHandler< AZ::u32, PropertyCRCCtrl >", "class_az_tools_framework_1_1_property_handler.html", [
+          ] ],
+          [ "AzToolsFramework::PropertyHandler< AZStd::string, ExeSelectPropertyCtrl >", "class_az_tools_framework_1_1_property_handler.html", [
+            [ "AzToolsFramework::ExeSelectPropertyHandler", "class_az_tools_framework_1_1_exe_select_property_handler.html", null ]
+          ] ],
+          [ "AzToolsFramework::PropertyHandler< T, GenericComboBoxCtrlBase >", "class_az_tools_framework_1_1_property_handler.html", [
+            [ "AzToolsFramework::GenericComboBoxHandler< T >", "class_az_tools_framework_1_1_generic_combo_box_handler.html", null ]
+          ] ],
+          [ "AzToolsFramework::PropertyHandler< ValueType, PropertyControl >", "class_az_tools_framework_1_1_property_handler.html", [
+            [ "AzToolsFramework::IntWidgetHandler< ValueType, PropertyControl, HandlerQObject >", "class_az_tools_framework_1_1_int_widget_handler.html", null ]
+          ] ],
+          [ "AzToolsFramework::PropertyHandler< AZStd::string, GrowTextEdit >", "class_az_tools_framework_1_1_property_handler.html", [
+            [ "AzToolsFramework::MultiLineTextEditHandler", "class_az_tools_framework_1_1_multi_line_text_edit_handler.html", null ]
+          ] ],
+          [ "AzToolsFramework::PropertyHandler< AZ::IO::Path, PropertyFilePathCtrl >", "class_az_tools_framework_1_1_property_handler.html", [
+            [ "AzToolsFramework::PropertyFilePathHandler", "class_az_tools_framework_1_1_property_file_path_handler.html", null ]
+          ] ],
+          [ "AzToolsFramework::PropertyHandler< AZ::u32, PropertyCRCCtrl >", "class_az_tools_framework_1_1_property_handler.html", null ],
+          [ "AzToolsFramework::PropertyHandler< PropertyType, WidgetType >", "class_az_tools_framework_1_1_property_handler.html", [
+            [ "AzToolsFramework::CRC32HandlerCommon< AZ::Crc32 >", "class_az_tools_framework_1_1_c_r_c32_handler_common.html", [
+              [ "AzToolsFramework::CRC32Handler", "class_az_tools_framework_1_1_c_r_c32_handler.html", null ]
+            ] ],
             [ "AzToolsFramework::CRC32HandlerCommon< AZ::u32 >", "class_az_tools_framework_1_1_c_r_c32_handler_common.html", [
               [ "AzToolsFramework::U32CRCHandler", "class_az_tools_framework_1_1_u32_c_r_c_handler.html", null ]
             ] ]
           ] ]
-        ] ]
-      ] ],
-      [ "AzToolsFramework::PropertyHandler_Internal< ExeSelectPropertyCtrl >", null, [
-        [ "AzToolsFramework::TypedPropertyHandler_Internal< AZStd::string, ExeSelectPropertyCtrl >", null, [
-          [ "AzToolsFramework::PropertyHandler< AZStd::string, ExeSelectPropertyCtrl >", "class_az_tools_framework_1_1_property_handler.html", [
-            [ "AzToolsFramework::ExeSelectPropertyHandler", "class_az_tools_framework_1_1_exe_select_property_handler.html", null ]
-          ] ]
-        ] ]
-      ] ],
-      [ "AzToolsFramework::PropertyHandler_Internal< GenericComboBoxCtrlBase >", null, [
-        [ "AzToolsFramework::TypedPropertyHandler_Internal< T, GenericComboBoxCtrlBase >", null, [
-          [ "AzToolsFramework::PropertyHandler< T, GenericComboBoxCtrlBase >", "class_az_tools_framework_1_1_property_handler.html", [
-            [ "AzToolsFramework::GenericComboBoxHandler< T >", "class_az_tools_framework_1_1_generic_combo_box_handler.html", null ]
-          ] ]
-        ] ]
-      ] ],
-      [ "AzToolsFramework::PropertyHandler_Internal< PropertyControl >", null, [
-        [ "AzToolsFramework::TypedPropertyHandler_Internal< ValueType, PropertyControl >", null, [
-          [ "AzToolsFramework::PropertyHandler< ValueType, PropertyControl >", "class_az_tools_framework_1_1_property_handler.html", [
-            [ "AzToolsFramework::IntWidgetHandler< ValueType, PropertyControl, HandlerQObject >", "class_az_tools_framework_1_1_int_widget_handler.html", null ]
-          ] ]
-        ] ]
-      ] ],
-      [ "AzToolsFramework::PropertyHandler_Internal< QLabel >", null, [
-        [ "AzToolsFramework::GenericPropertyHandler< QLabel >", "class_az_tools_framework_1_1_generic_property_handler.html", [
-          [ "AzToolsFramework::LabelHandler", "class_az_tools_framework_1_1_label_handler.html", null ]
-        ] ]
-      ] ],
-      [ "AzToolsFramework::PropertyHandler_Internal< GrowTextEdit >", null, [
-        [ "AzToolsFramework::TypedPropertyHandler_Internal< AZStd::string, GrowTextEdit >", null, [
-          [ "AzToolsFramework::PropertyHandler< AZStd::string, GrowTextEdit >", "class_az_tools_framework_1_1_property_handler.html", [
-            [ "AzToolsFramework::MultiLineTextEditHandler", "class_az_tools_framework_1_1_multi_line_text_edit_handler.html", null ]
-          ] ]
-        ] ]
-      ] ],
-      [ "AzToolsFramework::PropertyHandler_Internal< PropertyFilePathCtrl >", null, [
-        [ "AzToolsFramework::TypedPropertyHandler_Internal< AZ::IO::Path, PropertyFilePathCtrl >", null, [
-          [ "AzToolsFramework::PropertyHandler< AZ::IO::Path, PropertyFilePathCtrl >", "class_az_tools_framework_1_1_property_handler.html", [
-            [ "AzToolsFramework::PropertyFilePathHandler", "class_az_tools_framework_1_1_property_file_path_handler.html", null ]
-          ] ]
-        ] ]
-      ] ],
-      [ "AzToolsFramework::PropertyHandler_Internal< WidgetType >", null, [
-        [ "AzToolsFramework::GenericPropertyHandler< WidgetType >", "class_az_tools_framework_1_1_generic_property_handler.html", null ],
-        [ "AzToolsFramework::TypedPropertyHandler_Internal< PropertyType, WidgetType >", null, [
-          [ "AzToolsFramework::PropertyHandler< PropertyType, WidgetType >", "class_az_tools_framework_1_1_property_handler.html", null ]
         ] ]
       ] ]
     ] ],
@@ -1417,6 +1375,8 @@ var hierarchy =
     [ "EntityUtilityBus::Handler", null, [
       [ "AzToolsFramework::EntityUtilityComponent", "struct_az_tools_framework_1_1_entity_utility_component.html", null ]
     ] ],
+    [ "AZ::EnvironmentVariable< AzToolsFramework::AssetBrowser::AssetBrowserFavoritesManager * >", "class_a_z_1_1_environment_variable.html", null ],
+    [ "AZ::EnvironmentVariable< AzToolsFramework::AssetBrowser::EntryCache * >", "class_a_z_1_1_environment_variable.html", null ],
     [ "FocusModeNotificationBus::Handler", null, [
       [ "AzToolsFramework::EditorVisibleEntityDataCache", "class_az_tools_framework_1_1_editor_visible_entity_data_cache.html", null ]
     ] ],
@@ -1426,6 +1386,12 @@ var hierarchy =
     [ "HandlerQObject", null, [
       [ "AzToolsFramework::IntWidgetHandler< ValueType, PropertyControl, HandlerQObject >", "class_az_tools_framework_1_1_int_widget_handler.html", null ]
     ] ],
+    [ "AzToolsFramework::IdType< struct ButtonIdType >", "class_az_tools_framework_1_1_id_type.html", null ],
+    [ "AzToolsFramework::IdType< struct ClusterIdType >", "class_az_tools_framework_1_1_id_type.html", null ],
+    [ "AzToolsFramework::IdType< struct ManipulatorManagerType >", "class_az_tools_framework_1_1_id_type.html", null ],
+    [ "AzToolsFramework::IdType< struct ManipulatorType >", "class_az_tools_framework_1_1_id_type.html", null ],
+    [ "AzToolsFramework::IdType< struct RegisteredBoundType >", "class_az_tools_framework_1_1_id_type.html", null ],
+    [ "AzToolsFramework::IdType< struct SwitcherIdType >", "class_az_tools_framework_1_1_id_type.html", null ],
     [ "IndividualPropertyHandlerEditNotifications::Bus::Handler", null, [
       [ "AzToolsFramework::RpePropertyHandlerWrapper< WrappedType >", "class_az_tools_framework_1_1_rpe_property_handler_wrapper.html", null ]
     ] ],
@@ -1492,6 +1458,7 @@ var hierarchy =
       [ "AzToolsFramework::CScriptHelpDialog", "class_az_tools_framework_1_1_c_script_help_dialog.html", null ],
       [ "AzToolsFramework::KeyQueryDPE", "class_az_tools_framework_1_1_key_query_d_p_e.html", null ],
       [ "AzToolsFramework::LogPanel::NewLogTabDialog", "class_az_tools_framework_1_1_log_panel_1_1_new_log_tab_dialog.html", null ],
+      [ "AzToolsFramework::PerforceSettings", "class_az_tools_framework_1_1_perforce_settings.html", null ],
       [ "AzToolsFramework::SliceUtilities::MoveToSliceLevelConfirmation", "class_az_tools_framework_1_1_slice_utilities_1_1_move_to_slice_level_confirmation.html", null ]
     ] ],
     [ "QFrame", null, [

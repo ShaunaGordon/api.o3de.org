@@ -25,8 +25,6 @@ var annotated_dup =
       [ "hash< ScriptCanvas::GraphScopedIdentifier< T > >", "struct_a_z_std_1_1hash_3_01_script_canvas_1_1_graph_scoped_identifier_3_01_t_01_4_01_4.html", null ],
       [ "hash< ScriptCanvas::NamedEndpoint >", "struct_a_z_std_1_1hash_3_01_script_canvas_1_1_named_endpoint_01_4.html", null ],
       [ "hash< ScriptCanvas::NamedId< t_Id > >", "struct_a_z_std_1_1hash_3_01_script_canvas_1_1_named_id_3_01t___id_01_4_01_4.html", null ],
-      [ "hash< ScriptCanvas::SlotId >", "struct_a_z_std_1_1hash_3_01_script_canvas_1_1_slot_id_01_4.html", null ],
-      [ "hash< ScriptCanvas::SourceHandle >", "struct_a_z_std_1_1hash_3_01_script_canvas_1_1_source_handle_01_4.html", null ],
       [ "hash< ScriptCanvas::VariableId >", "struct_a_z_std_1_1hash_3_01_script_canvas_1_1_variable_id_01_4.html", null ]
     ] ],
     [ "ContainerTypeReflection", null, [
@@ -538,7 +536,6 @@ var annotated_dup =
       [ "ScopedAuxiliaryEntityHandler", "class_script_canvas_1_1_scoped_auxiliary_entity_handler.html", null ],
       [ "ScopedBatchOperation", "class_script_canvas_1_1_scoped_batch_operation.html", null ],
       [ "ScopedDataConnectionEvent", "class_script_canvas_1_1_scoped_data_connection_event.html", null ],
-      [ "ScriptCanvasData", "class_script_canvas_1_1_script_canvas_data.html", null ],
       [ "ScriptCanvasModule", "class_script_canvas_1_1_script_canvas_module.html", null ],
       [ "ScriptCanvasModuleCommon", "class_script_canvas_1_1_script_canvas_module_common.html", null ],
       [ "ScriptCanvasSettingsRequests", "class_script_canvas_1_1_script_canvas_settings_requests.html", null ],
@@ -558,8 +555,6 @@ var annotated_dup =
       [ "SlotTypeContract", "class_script_canvas_1_1_slot_type_contract.html", null ],
       [ "SlotTypeUtils", "class_script_canvas_1_1_slot_type_utils.html", null ],
       [ "SlotVersionCache", "struct_script_canvas_1_1_slot_version_cache.html", null ],
-      [ "SourceDescription", "class_script_canvas_1_1_source_description.html", null ],
-      [ "SourceHandle", "class_script_canvas_1_1_source_handle.html", null ],
       [ "SourceTree", "class_script_canvas_1_1_source_tree.html", null ],
       [ "StatusRequests", "class_script_canvas_1_1_status_requests.html", "class_script_canvas_1_1_status_requests" ],
       [ "StepOverTag", "struct_script_canvas_1_1_step_over_tag.html", null ],

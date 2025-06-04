@@ -95,13 +95,25 @@ var hierarchy =
       [ "PhysX::JointsComponentModeRequests", "class_phys_x_1_1_joints_component_mode_requests.html", null ]
     ] ],
     [ "AZ::Interface::Registrar", null, [
-      [ "PhysX::Debug::PhysXDebug", "class_phys_x_1_1_debug_1_1_phys_x_debug.html", null ],
-      [ "PhysX::MaterialManager", "class_phys_x_1_1_material_manager.html", null ],
-      [ "PhysX::PhysXEditorJointHelpersInterface", "class_phys_x_1_1_phys_x_editor_joint_helpers_interface.html", null ],
-      [ "PhysX::PhysXJointHelpersInterface", "class_phys_x_1_1_phys_x_joint_helpers_interface.html", null ],
-      [ "PhysX::PhysXSceneInterface", "class_phys_x_1_1_phys_x_scene_interface.html", null ],
-      [ "PhysX::PhysXSystem", "class_phys_x_1_1_phys_x_system.html", null ],
+      [ "PhysX::PhysXEditorJointHelpersInterface", "class_phys_x_1_1_phys_x_editor_joint_helpers_interface.html", null ]
+    ] ],
+    [ "AZ::Interface::Registrar", null, [
+      [ "PhysX::PhysXJointHelpersInterface", "class_phys_x_1_1_phys_x_joint_helpers_interface.html", null ]
+    ] ],
+    [ "AZ::Interface::Registrar", null, [
+      [ "PhysX::PhysXSceneInterface", "class_phys_x_1_1_phys_x_scene_interface.html", null ]
+    ] ],
+    [ "AZ::Interface::Registrar", null, [
+      [ "PhysX::PhysXSystem", "class_phys_x_1_1_phys_x_system.html", null ]
+    ] ],
+    [ "AZ::Interface::Registrar", null, [
+      [ "PhysX::MaterialManager", "class_phys_x_1_1_material_manager.html", null ]
+    ] ],
+    [ "AZ::Interface::Registrar", null, [
       [ "PhysX::WindProvider", "class_phys_x_1_1_wind_provider.html", null ]
+    ] ],
+    [ "AZ::Interface::Registrar", null, [
+      [ "PhysX::Debug::PhysXDebug", "class_phys_x_1_1_debug_1_1_phys_x_debug.html", null ]
     ] ],
     [ "AZ::Job", null, [
       [ "PhysX::PhysXJob", "class_phys_x_1_1_phys_x_job.html", null ]
@@ -559,7 +571,6 @@ var hierarchy =
     [ "PhysX::Pipeline::MeshAssetData", "class_phys_x_1_1_pipeline_1_1_mesh_asset_data.html", null ],
     [ "PhysX::Pipeline::PrimitiveAssetParams", "class_phys_x_1_1_pipeline_1_1_primitive_asset_params.html", null ],
     [ "PhysX::Pipeline::TriangleMeshAssetParams", "class_phys_x_1_1_pipeline_1_1_triangle_mesh_asset_params.html", null ],
-    [ "PhysX::Pipeline::Utils::AssetMaterialsData", "struct_phys_x_1_1_pipeline_1_1_utils_1_1_asset_materials_data.html", null ],
     [ "physx::PxAllocatorCallback", null, [
       [ "PhysX::PxAzAllocatorCallback", "class_phys_x_1_1_px_az_allocator_callback.html", null ]
     ] ],

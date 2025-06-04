@@ -2,10 +2,6 @@ var annotated_dup =
 [
     [ "ScriptCanvas", null, [
       [ "Developer", null, [
-        [ "EditStringLike", null, [
-          [ "ValueInNodeState", "class_script_canvas_1_1_developer_1_1_edit_string_like_1_1_value_in_node_state.html", null ],
-          [ "VariableInPaletteState", "class_script_canvas_1_1_developer_1_1_edit_string_like_1_1_variable_in_palette_state.html", null ]
-        ] ],
         [ "Nodes", null, [
           [ "Mock", "class_script_canvas_1_1_developer_1_1_nodes_1_1_mock.html", null ],
           [ "MockDescriptorNotifications", "class_script_canvas_1_1_developer_1_1_nodes_1_1_mock_descriptor_notifications.html", null ],
