@@ -1,4 +1,4 @@
-# This is a basic workflow that is manually triggered
+# This workflow generates the API docs, following the documented process in o3de/sig-docs-community.
 
 name: Generate Docs
 
@@ -37,43 +37,39 @@ jobs:
         uses: actions/checkout@v4.2.2
         with:
           path: api.o3de.org
-          repository: ShaunaGordon/api.o3de.org
-          # Grab the main branch
+          repository: o3de/api.o3de.org
           ref: main
 
       # Release builds
-      - name: Checkout O3DE
+      - name: Checkout O3DE, stabilization branch
         if: ${{ ! inputs.off_release }}
         uses: actions/checkout@v4.2.2
         with:
           path: o3de
           repository: o3de/o3de
-          # Grab the stabilization branch
           ref: "stabilization/${{ env.version_joined }}"
-      - name: Checkout O3DE-extras
+      - name: Checkout O3DE-extras, stabilization branch
         if: ${{ ! inputs.off_release }}
         uses: actions/checkout@v4.2.2
         with:
           path: o3de-extras
           repository: o3de/o3de-extras
-          # Grab the stabilization branch
           ref: "stabilization/${{ env.version_joined }}"
 
       # Off-release builds
-      - name: Checkout O3DE
+      - name: Checkout O3DE, main branch
         if: ${{ inputs.off_release }}
         uses: actions/checkout@v4.2.2
         with:
           path: o3de
           repository: o3de/o3de
           ref: "main"
-      - name: Checkout O3DE-extras
+      - name: Checkout O3DE-extras, main branch
         if: ${{ inputs.off_release }}
         uses: actions/checkout@v4.2.2
         with:
           path: o3de-extras
           repository: o3de/o3de-extras
-          # Grab the stabilization branch
           ref: "main"
 
 
@@ -81,9 +77,8 @@ jobs:
         uses: actions/checkout@v4.2.2
         with:
           path: sig-docs-community
-          repository: ShaunaGordon/sig-docs-community
-          # Grab the main branch
-          ref: next # TODO: Swap this back after next is merged
+          repository: o3de/sig-docs-community
+          ref: main
 
       - name: Set config
         # Set the config information
