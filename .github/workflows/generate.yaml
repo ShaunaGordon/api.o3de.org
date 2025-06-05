@@ -17,6 +17,11 @@ on:
         description: 'Version (xx.yy.z)'
         required: true
         type: string
+      off_release:
+        description: "Generate off O3DE main branch?"
+        required: false
+        default: false
+        type: boolean
 
 jobs:
   generate:
@@ -35,7 +40,10 @@ jobs:
           repository: ShaunaGordon/api.o3de.org
           # Grab the main branch
           ref: main
+
+      # Release builds
       - name: Checkout O3DE
+        if: ${{ ! inputs.off_release }}
         uses: actions/checkout@v4.2.2
         with:
           path: o3de
@@ -43,12 +51,32 @@ jobs:
           # Grab the stabilization branch
           ref: "stabilization/${{ env.version_joined }}"
       - name: Checkout O3DE-extras
+        if: ${{ ! inputs.off_release }}
         uses: actions/checkout@v4.2.2
         with:
           path: o3de-extras
           repository: o3de/o3de-extras
           # Grab the stabilization branch
           ref: "stabilization/${{ env.version_joined }}"
+
+      # Off-release builds
+      - name: Checkout O3DE
+        if: ${{ inputs.off_release }}
+        uses: actions/checkout@v4.2.2
+        with:
+          path: o3de
+          repository: o3de/o3de
+          ref: "main"
+      - name: Checkout O3DE-extras
+        if: ${{ inputs.off_release }}
+        uses: actions/checkout@v4.2.2
+        with:
+          path: o3de-extras
+          repository: o3de/o3de-extras
+          # Grab the stabilization branch
+          ref: "main"
+
+
       - name: Checkout sig-docs
         uses: actions/checkout@v4.2.2
         with:
@@ -86,5 +114,5 @@ jobs:
           commit-message: "Automatic generation of API docs for version ${{ inputs.version }}."
           branch: generate/${{ inputs.version }}
           title: "Generate API docs for ${{ inputs.version }}"
-          body: "Automated change from ${{ github.action }} GitHub Action."
+          body: "Automated change from Generate Docs GitHub Action."
   
