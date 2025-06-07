@@ -26,7 +26,7 @@ var NAVTREE =
 [
   [ "Open 3D Engine ROS2 Gem API Reference", "index.html", [
     [ "Namespaces", "namespaces.html", [
-      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
+      [ "Namespace List", "namespaces.html", null ],
       [ "Namespace Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", null ],
         [ "Functions", "namespacemembers_func.html", null ]
@@ -53,10 +53,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_r_o_s2_sensor_types_ids_8h.html",
-"class_r_o_s2_1_1_joints_manipulation_requests.html#a1c33c8b1203818186d8184e7d871c6b6",
-"class_r_o_s2_1_1_r_o_s2_frame_system_requests.html#a3411886c13bb0961465000b4febfed1a",
-"class_r_o_s2_1_1_vehicle_dynamics_1_1_vehicle_input_control_requests.html#a97aee22f1234311cf1f85683ece19c9e",
-"struct_r_o_s2_1_1_namespace_configuration.html"
+"class_r_o_s2_1_1_r_o_s2_frame_editor_component.html#a646c66b027a7fabb6fade8aea130fe87",
+"struct_r_o_s2_1_1_camera_sensor_configuration.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

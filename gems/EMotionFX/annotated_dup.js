@@ -3,8 +3,7 @@ var annotated_dup =
     [ "AZ", null, [
       [ "Render", null, [
         [ "RenderActorSettings", "class_a_z_1_1_render_1_1_render_actor_settings.html", "class_a_z_1_1_render_1_1_render_actor_settings" ]
-      ] ],
-      [ "SerializeGenericTypeInfo< AZStd::shared_ptr< const EMotionFX::EventData > >", "struct_a_z_1_1_serialize_generic_type_info_3_01_a_z_std_1_1shared__ptr_3_01const_01_e_motion_f_x_1_1_event_data_01_4_01_4.html", "struct_a_z_1_1_serialize_generic_type_info_3_01_a_z_std_1_1shared__ptr_3_01const_01_e_motion_f_x_1_1_event_data_01_4_01_4" ]
+      ] ]
     ] ],
     [ "AZStd", null, [
       [ "IntrusivePtrCountPolicy< MCore::RefCounted >", "struct_a_z_std_1_1_intrusive_ptr_count_policy_3_01_m_core_1_1_ref_counted_01_4.html", null ]

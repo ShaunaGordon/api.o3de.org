@@ -61,6 +61,10 @@ var hierarchy =
     [ "AzFramework::ViewportDebugDisplayEventBus::Handler", null, [
       [ "WhiteBox::VertexTranslationModifier", "class_white_box_1_1_vertex_translation_modifier.html", null ]
     ] ],
+    [ "AzFramework::VisibleGeometryRequestBus::Handler", null, [
+      [ "WhiteBox::EditorWhiteBoxComponent", "class_white_box_1_1_editor_white_box_component.html", null ],
+      [ "WhiteBox::WhiteBoxComponent", "class_white_box_1_1_white_box_component.html", null ]
+    ] ],
     [ "AzToolsFramework::ActionManagerRegistrationNotificationBus::Handler", null, [
       [ "WhiteBox::EditorWhiteBoxSystemComponent", "class_white_box_1_1_editor_white_box_system_component.html", null ]
     ] ],
@@ -122,15 +126,12 @@ var hierarchy =
     [ "EditorWhiteBoxTransformModeRequestBus::Handler", null, [
       [ "WhiteBox::TransformMode", "class_white_box_1_1_transform_mode.html", null ]
     ] ],
+    [ "WhiteBox::GenericHandle< struct EdgeHandleTag >", "class_white_box_1_1_generic_handle.html", null ],
+    [ "WhiteBox::GenericHandle< struct FaceHandleTag >", "class_white_box_1_1_generic_handle.html", null ],
+    [ "WhiteBox::GenericHandle< struct VertexHandleTag >", "class_white_box_1_1_generic_handle.html", null ],
     [ "IEditorNotifyListener", null, [
       [ "WhiteBox::EditorWhiteBoxMeshAsset", "class_white_box_1_1_editor_white_box_mesh_asset.html", null ]
     ] ],
-    [ "WhiteBox::Api::AppendedPolygonHandles", "struct_white_box_1_1_api_1_1_appended_polygon_handles.html", null ],
-    [ "WhiteBox::Api::EdgeTypes", "struct_white_box_1_1_api_1_1_edge_types.html", null ],
-    [ "WhiteBox::Api::FaceVertHandles", "struct_white_box_1_1_api_1_1_face_vert_handles.html", null ],
-    [ "WhiteBox::Api::PolygonHandle", "struct_white_box_1_1_api_1_1_polygon_handle.html", null ],
-    [ "WhiteBox::Api::RestoredPolygonHandlePair", "struct_white_box_1_1_api_1_1_restored_polygon_handle_pair.html", null ],
-    [ "WhiteBox::Api::WhiteBoxMeshDeleter", "class_white_box_1_1_api_1_1_white_box_mesh_deleter.html", null ],
     [ "WhiteBox::AttributeBuffer< AttributeTypeT >", "class_white_box_1_1_attribute_buffer.html", null ],
     [ "WhiteBox::AttributeTrait< AttributeTypeT >", "struct_white_box_1_1_attribute_trait.html", null ],
     [ "WhiteBox::AttributeTrait< AttributeType::Bitangent >", "struct_white_box_1_1_attribute_trait_3_01_attribute_type_1_1_bitangent_01_4.html", null ],
@@ -149,9 +150,6 @@ var hierarchy =
     [ "WhiteBox::EdgeScaleModifier", "class_white_box_1_1_edge_scale_modifier.html", null ],
     [ "WhiteBox::EdgeTranslationModifier", "class_white_box_1_1_edge_translation_modifier.html", null ],
     [ "WhiteBox::GenericHandle< Tag >", "class_white_box_1_1_generic_handle.html", null ],
-    [ "WhiteBox::GenericHandle< struct EdgeHandleTag >", "class_white_box_1_1_generic_handle.html", null ],
-    [ "WhiteBox::GenericHandle< struct FaceHandleTag >", "class_white_box_1_1_generic_handle.html", null ],
-    [ "WhiteBox::GenericHandle< struct VertexHandleTag >", "class_white_box_1_1_generic_handle.html", null ],
     [ "WhiteBox::GeometryIntersectionData", "struct_white_box_1_1_geometry_intersection_data.html", null ],
     [ "WhiteBox::Intersection", "struct_white_box_1_1_intersection.html", null ],
     [ "WhiteBox::IntersectionAndRenderData", "struct_white_box_1_1_intersection_and_render_data.html", null ],

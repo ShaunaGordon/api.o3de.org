@@ -154,7 +154,6 @@ var namespace_script_canvas =
     [ "ScopedAuxiliaryEntityHandler", "class_script_canvas_1_1_scoped_auxiliary_entity_handler.html", null ],
     [ "ScopedBatchOperation", "class_script_canvas_1_1_scoped_batch_operation.html", null ],
     [ "ScopedDataConnectionEvent", "class_script_canvas_1_1_scoped_data_connection_event.html", null ],
-    [ "ScriptCanvasData", "class_script_canvas_1_1_script_canvas_data.html", null ],
     [ "ScriptCanvasModule", "class_script_canvas_1_1_script_canvas_module.html", null ],
     [ "ScriptCanvasModuleCommon", "class_script_canvas_1_1_script_canvas_module_common.html", null ],
     [ "ScriptCanvasSettingsRequests", "class_script_canvas_1_1_script_canvas_settings_requests.html", null ],
@@ -174,8 +173,6 @@ var namespace_script_canvas =
     [ "SlotTypeContract", "class_script_canvas_1_1_slot_type_contract.html", null ],
     [ "SlotTypeUtils", "class_script_canvas_1_1_slot_type_utils.html", null ],
     [ "SlotVersionCache", "struct_script_canvas_1_1_slot_version_cache.html", null ],
-    [ "SourceDescription", "class_script_canvas_1_1_source_description.html", null ],
-    [ "SourceHandle", "class_script_canvas_1_1_source_handle.html", null ],
     [ "SourceTree", "class_script_canvas_1_1_source_tree.html", null ],
     [ "StatusRequests", "class_script_canvas_1_1_status_requests.html", "class_script_canvas_1_1_status_requests" ],
     [ "StepOverTag", "struct_script_canvas_1_1_step_over_tag.html", null ],
@@ -213,7 +210,7 @@ var namespace_script_canvas =
     [ "VersionData", "struct_script_canvas_1_1_version_data.html", null ],
     [ "VersioningUtils", "class_script_canvas_1_1_versioning_utils.html", null ],
     [ "VisualExtensionSlotConfiguration", "struct_script_canvas_1_1_visual_extension_slot_configuration.html", null ],
-    [ "ContractCreationFunction", "namespace_script_canvas.html#ac8e51bde02cbeb06c968bb520ab4fcc5", null ],
+    [ "ContractCreationFunction", "namespace_script_canvas.html#a9b726e7ed8ba7ea629c289e8c6550c52", null ],
     [ "GetNodeRegistry", "namespace_script_canvas.html#a02f282983c1ce86b379741adfc32e9c7", null ],
     [ "LoadFromFile", "namespace_script_canvas.html#a9bde32a0ec5213f6fc331ab4b5f0ea9f", null ]
 ];

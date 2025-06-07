@@ -1,6 +1,5 @@
 var NAVTREEINDEX12 =
 {
-"class_m_core_1_1_initializer.html#ade5c1a32838b9b2650ad61f685a0ed3b":[0,0,5,38,1],
 "class_m_core_1_1_lcg_random.html":[0,0,5,39],
 "class_m_core_1_1_lock_guard.html":[0,0,5,40],
 "class_m_core_1_1_lock_guard_recursive.html":[0,0,5,41],
@@ -48,6 +47,7 @@ var NAVTREEINDEX12 =
 "class_m_core_1_1_math.html#a03aa40ab98c908e8f923111ac934b7d1":[0,0,5,44,14],
 "class_m_core_1_1_math.html#a0dffae37cb6c60ff7083d3976153db4d":[0,0,5,44,32],
 "class_m_core_1_1_math.html#a131b6a99120f873e5191f3937c3b8736":[0,0,5,44,27],
+"class_m_core_1_1_math.html#a1abb963c9fa78e383b56b4863a865b43":[0,0,5,44,2],
 "class_m_core_1_1_math.html#a37293d6431dabbb969b6238b20c115ee":[0,0,5,44,42],
 "class_m_core_1_1_math.html#a3cef103a3a1154fc516a5a811897b691":[0,0,5,44,8],
 "class_m_core_1_1_math.html#a3dcd7b2193a66b7eb9c7ddc6236bde50":[0,0,5,44,40],
@@ -75,7 +75,6 @@ var NAVTREEINDEX12 =
 "class_m_core_1_1_math.html#aa496298f9f2d05468c02f1c0012585f6":[0,0,5,44,31],
 "class_m_core_1_1_math.html#aaad46e470c23fb19d5497ad840d0c84e":[0,0,5,44,11],
 "class_m_core_1_1_math.html#aaaf770a461785a6951ba1cbce3ef1c05":[0,0,5,44,19],
-"class_m_core_1_1_math.html#aaed72703396c014dbd07277ff6022020":[0,0,5,44,2],
 "class_m_core_1_1_math.html#ab2cc3011804dc51ea934e1a5c5eb86ce":[0,0,5,44,9],
 "class_m_core_1_1_math.html#abc2639e3380a9a654b87381142ecd508":[0,0,5,44,20],
 "class_m_core_1_1_math.html#abc33d6ee14a8f85ea98553e5b965d1ed":[0,0,5,44,17],
@@ -211,12 +210,12 @@ var NAVTREEINDEX12 =
 "class_m_core_1_1_t_compressed_float.html#afcd5bfbd7385608540bdf202cfb9321b":[0,0,5,59,1],
 "class_m_core_1_1_t_compressed_quaternion.html":[0,0,5,60],
 "class_m_core_1_1_t_compressed_quaternion.html#a3481d804e67f91af0f0923f38d1ad760":[0,0,5,60,0],
+"class_m_core_1_1_t_compressed_quaternion.html#a67aaa9029573b2b3dfda8c17ef457efe":[0,0,5,60,5],
 "class_m_core_1_1_t_compressed_quaternion.html#a7bf61bb04a0c6d5773e06b56e9d300c5":[0,0,5,60,6],
 "class_m_core_1_1_t_compressed_quaternion.html#a7c765f250d947c492d8a071e9ec5ba7e":[0,0,5,60,1],
+"class_m_core_1_1_t_compressed_quaternion.html#a801221919ae52a6fe2c3ff36dc21d84e":[0,0,5,60,4],
 "class_m_core_1_1_t_compressed_quaternion.html#acc8f8c88e381a35ea1a6a98aac8b7cef":[0,0,5,60,3],
 "class_m_core_1_1_t_compressed_quaternion.html#ad71321a56141e0a156e2dd929f83bcd3":[0,0,5,60,2],
-"class_m_core_1_1_t_compressed_quaternion.html#ae40d9f0f23724b1954a80d8441de2932":[0,0,5,60,4],
-"class_m_core_1_1_t_compressed_quaternion.html#aea2e002c3364452328b08e03b5c8acd0":[0,0,5,60,5],
 "class_m_core_1_1_t_compressed_vector3.html":[0,0,5,61],
 "class_m_core_1_1_t_compressed_vector3.html#a561c73c3f13dee37742e43198d0c35ee":[0,0,5,61,0],
 "class_m_core_1_1_t_compressed_vector3.html#a69e0629a359e131e5d3fb884c367445a":[0,0,5,61,2],
@@ -232,8 +231,8 @@ var NAVTREEINDEX12 =
 "class_mystic_qt_1_1_mystic_qt_manager.html":[0,0,6,3],
 "class_mystic_qt_1_1_recent_files.html":[0,0,6,4],
 "classes.html":[0,1],
-"functions.html":[0,3,0],
 "functions.html":[0,3,0,0],
+"functions.html":[0,3,0],
 "functions_b.html":[0,3,0,1],
 "functions_c.html":[0,3,0,2],
 "functions_d.html":[0,3,0,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX12 =
 "functions_func_e.html":[0,3,1,4],
 "functions_func_f.html":[0,3,1,5],
 "functions_func_g.html":[0,3,1,6],
-"functions_func_h.html":[0,3,1,7]
+"functions_func_h.html":[0,3,1,7],
+"functions_func_i.html":[0,3,1,8]
 };

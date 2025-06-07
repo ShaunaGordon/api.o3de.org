@@ -1,7 +1,7 @@
 var class_a_z_1_1_r_p_i_1_1_shader_asset_creator =
 [
     [ "ShaderSupervariant", "struct_a_z_1_1_r_p_i_1_1_shader_asset_creator_1_1_shader_supervariant.html", null ],
-    [ "ShaderRootVariantAssetPair", "class_a_z_1_1_r_p_i_1_1_shader_asset_creator.html#af647cb11e8fc45f9bed477222e3704f2", null ],
+    [ "ShaderRootVariantAssetPair", "class_a_z_1_1_r_p_i_1_1_shader_asset_creator.html#a8a5dc6f48c9039c312be5871b01d7336", null ],
     [ "Begin", "class_a_z_1_1_r_p_i_1_1_shader_asset_creator.html#a2059e8f6c0e237f79b01298ea05e400f", null ],
     [ "BeginAPI", "class_a_z_1_1_r_p_i_1_1_shader_asset_creator.html#a21fb9bec6dd851535f3ce09ca020cbc2", null ],
     [ "BeginSupervariant", "class_a_z_1_1_r_p_i_1_1_shader_asset_creator.html#a24b0ecb5404a6f839a8cf3eeeda79085", null ],
@@ -14,5 +14,6 @@ var class_a_z_1_1_r_p_i_1_1_shader_asset_creator =
     [ "SetRootShaderVariantAsset", "class_a_z_1_1_r_p_i_1_1_shader_asset_creator.html#a972657402a46cfc47cfa0af34e340e4a", null ],
     [ "SetShaderOptionDefaultValue", "class_a_z_1_1_r_p_i_1_1_shader_asset_creator.html#add8804f2dd1df446f7e11ecb6ac7c118", null ],
     [ "SetShaderOptionGroupLayout", "class_a_z_1_1_r_p_i_1_1_shader_asset_creator.html#a34bed50be0b1a5f0d844f7773c6cb900", null ],
-    [ "SetShaderStageAttributeMapList", "class_a_z_1_1_r_p_i_1_1_shader_asset_creator.html#ac5c61dea89ea25250f0661c472dabe61", null ]
+    [ "SetShaderStageAttributeMapList", "class_a_z_1_1_r_p_i_1_1_shader_asset_creator.html#ac5c61dea89ea25250f0661c472dabe61", null ],
+    [ "SetUseSpecializationConstants", "class_a_z_1_1_r_p_i_1_1_shader_asset_creator.html#aaf3ad68f9ec9e5b93f084416cf3a6284", null ]
 ];

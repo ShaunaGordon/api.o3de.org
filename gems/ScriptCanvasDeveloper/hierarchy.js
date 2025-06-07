@@ -171,8 +171,6 @@ var hierarchy =
           [ "ScriptCanvas::Developer::GetLastConnection", "class_script_canvas_1_1_developer_1_1_get_last_connection.html", null ]
         ] ],
         [ "ScriptCanvas::Developer::DeleteVariableRowFromPaletteState", "class_script_canvas_1_1_developer_1_1_delete_variable_row_from_palette_state.html", null ],
-        [ "ScriptCanvas::Developer::EditStringLike::ValueInNodeState", "class_script_canvas_1_1_developer_1_1_edit_string_like_1_1_value_in_node_state.html", null ],
-        [ "ScriptCanvas::Developer::EditStringLike::VariableInPaletteState", "class_script_canvas_1_1_developer_1_1_edit_string_like_1_1_variable_in_palette_state.html", null ],
         [ "ScriptCanvas::Developer::MouseToNodePropertyEditorState", "class_script_canvas_1_1_developer_1_1_mouse_to_node_property_editor_state.html", null ],
         [ "ScriptCanvas::Developer::SceneMouseDragState", "class_script_canvas_1_1_developer_1_1_scene_mouse_drag_state.html", null ],
         [ "ScriptCanvas::Developer::SceneMouseMoveState", "class_script_canvas_1_1_developer_1_1_scene_mouse_move_state.html", null ],

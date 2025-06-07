@@ -637,6 +637,7 @@ var hierarchy =
       [ "CSprite", "class_c_sprite.html", null ],
       [ "UiTextComponent", "class_ui_text_component.html", null ]
     ] ],
+    [ "UiSpline::TSpline< SplineKeyEx< T >, spline::BezierBasis >", "class_ui_spline_1_1_t_spline.html", null ],
     [ "UiAnimateEntityBus::Handler", null, [
       [ "UiFaderComponent", "class_ui_fader_component.html", null ],
       [ "UiImageComponent", "class_ui_image_component.html", null ],
@@ -1032,7 +1033,6 @@ var hierarchy =
     [ "UiSpline::TSpline< KeyType, BasisType >", "class_ui_spline_1_1_t_spline.html", [
       [ "UiSpline::BezierSpline< T, Key >", "class_ui_spline_1_1_bezier_spline.html", null ]
     ] ],
-    [ "UiSpline::TSpline< SplineKeyEx< T >, spline::BezierBasis >", "class_ui_spline_1_1_t_spline.html", null ],
     [ "UiSpriteSettingsChangeNotificationBus::Handler", null, [
       [ "UiImageComponent", "class_ui_image_component.html", null ]
     ] ],
