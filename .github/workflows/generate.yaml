@@ -37,7 +37,6 @@ jobs:
         uses: actions/checkout@v4.2.2
         with:
           path: api.o3de.org
-          repository: o3de/api.o3de.org
           ref: main
 
       # Release builds
