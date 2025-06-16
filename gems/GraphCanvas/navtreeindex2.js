@@ -248,6 +248,6 @@ var NAVTREEINDEX2 =
 "class_graph_canvas_1_1_wrapper_node_notifications.html":[0,0,1,405],
 "class_graph_canvas_1_1_wrapper_node_requests.html":[0,0,1,406],
 "classes.html":[0,1],
-"functions.html":[0,3,0],
-"functions.html":[0,3,0,0]
+"functions.html":[0,3,0,0],
+"functions.html":[0,3,0]
 };

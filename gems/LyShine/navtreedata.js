@@ -56,15 +56,15 @@ var NAVTREEINDEX =
 "annotated.html",
 "class_c_undo_sequence_settings.html",
 "class_ly_shine_1_1_i_render_graph.html#a9ff499c5ec7d9d2499d4454f14e738a3",
-"class_ui_anim_undo_manager.html#a3f344666aa173c50fcecbcfe7ad4178a",
-"class_ui_compound_spline_track.html#a36bc77792a37ed7bf7b5936bc8314a9c",
-"class_ui_editor_entity_context_requests.html#a8a069c44b8e89fa25802f464f4f8ea25",
-"class_ui_image_sequence_interface.html#af93ec244e2890bb394654d12d01cc581aaf43449e5b62b918eed131f7adb61820",
-"class_ui_layout_interface.html#ae59a1d86c863ecd18490284d9cdbe06d",
-"class_ui_renderer.html#a7f2addd2ccc98597aba120ed075267e0",
-"class_ui_text_component.html#af95dd9eff9dd5dd03f71fab47f312038",
-"class_viewport_align.html",
-"struct_i_ui_anim_string_table.html"
+"class_ui_anim_undo_manager.html#ab7846f4cecacab49fb943fd6bd55fe2a",
+"class_ui_compound_spline_track.html#a7603db32a6bddbadfa275aa5125e8cf7",
+"class_ui_editor_inernal_requests.html",
+"class_ui_indexable_image_interface.html#a577a5ed7dad4f801113e2c3716a49887",
+"class_ui_layout_manager_interface.html#a1ed41fc6823aa10b883d1290001bb263",
+"class_ui_renderer.html#aa1cce6a2ee47d352fa9ccb706d830fc5",
+"class_ui_text_input_interface.html",
+"class_viewport_canvas_background.html#a2c5700b0911969a3b7a029e36afb4296",
+"struct_i_ui_anim_track.html#a137a6611b19b6e89ce1a7df2d2d612efa3f23ad7dc6400da41dfb383160572fce"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

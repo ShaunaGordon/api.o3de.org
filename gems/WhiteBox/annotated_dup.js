@@ -1,14 +1,6 @@
 var annotated_dup =
 [
     [ "WhiteBox", null, [
-      [ "Api", null, [
-        [ "AppendedPolygonHandles", "struct_white_box_1_1_api_1_1_appended_polygon_handles.html", "struct_white_box_1_1_api_1_1_appended_polygon_handles" ],
-        [ "EdgeTypes", "struct_white_box_1_1_api_1_1_edge_types.html", null ],
-        [ "FaceVertHandles", "struct_white_box_1_1_api_1_1_face_vert_handles.html", null ],
-        [ "PolygonHandle", "struct_white_box_1_1_api_1_1_polygon_handle.html", null ],
-        [ "RestoredPolygonHandlePair", "struct_white_box_1_1_api_1_1_restored_polygon_handle_pair.html", null ],
-        [ "WhiteBoxMeshDeleter", "class_white_box_1_1_api_1_1_white_box_mesh_deleter.html", null ]
-      ] ],
       [ "Pipeline", null, [
         [ "WhiteBoxMeshAsset", "class_white_box_1_1_pipeline_1_1_white_box_mesh_asset.html", null ],
         [ "WhiteBoxMeshAssetHandler", "class_white_box_1_1_pipeline_1_1_white_box_mesh_asset_handler.html", null ]

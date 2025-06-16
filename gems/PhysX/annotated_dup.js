@@ -61,9 +61,6 @@ var annotated_dup =
         [ "SubModeParameterState", "struct_phys_x_1_1_joints_component_mode_common_1_1_sub_mode_parameter_state.html", "struct_phys_x_1_1_joints_component_mode_common_1_1_sub_mode_parameter_state" ]
       ] ],
       [ "Pipeline", null, [
-        [ "Utils", null, [
-          [ "AssetMaterialsData", "struct_phys_x_1_1_pipeline_1_1_utils_1_1_asset_materials_data.html", "struct_phys_x_1_1_pipeline_1_1_utils_1_1_asset_materials_data" ]
-        ] ],
         [ "AbstractShapeParameterization", "class_phys_x_1_1_pipeline_1_1_abstract_shape_parameterization.html", "class_phys_x_1_1_pipeline_1_1_abstract_shape_parameterization" ],
         [ "AssetColliderConfiguration", "class_phys_x_1_1_pipeline_1_1_asset_collider_configuration.html", "class_phys_x_1_1_pipeline_1_1_asset_collider_configuration" ],
         [ "ConvexAssetParams", "class_phys_x_1_1_pipeline_1_1_convex_asset_params.html", null ],
