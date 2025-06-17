@@ -1,6 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"class_e_motion_f_x_1_1_anim_graph_node_id_picker.html":[0,0,3,54],
 "class_e_motion_f_x_1_1_anim_graph_node_name_handler.html":[0,0,3,55],
 "class_e_motion_f_x_1_1_anim_graph_node_name_line_edit.html":[0,0,3,56],
 "class_e_motion_f_x_1_1_anim_graph_notifications.html":[0,0,3,57],
@@ -249,5 +248,6 @@ var NAVTREEINDEX3 =
 "class_e_motion_f_x_1_1_blend_tree_range_remapper_node.html":[0,0,3,157],
 "class_e_motion_f_x_1_1_blend_tree_raycast_node.html":[0,0,3,158],
 "class_e_motion_f_x_1_1_blend_tree_rotation_limit_container_handler.html":[0,0,3,159],
-"class_e_motion_f_x_1_1_blend_tree_rotation_limit_handler.html":[0,0,3,160]
+"class_e_motion_f_x_1_1_blend_tree_rotation_limit_handler.html":[0,0,3,160],
+"class_e_motion_f_x_1_1_blend_tree_rotation_limit_node.html":[0,0,3,161]
 };

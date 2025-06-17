@@ -6,7 +6,7 @@ var class_a_z_1_1_r_p_i_1_1_material_type_source_data =
     [ "PropertyLayout", "struct_a_z_1_1_r_p_i_1_1_material_type_source_data_1_1_property_layout.html", "struct_a_z_1_1_r_p_i_1_1_material_type_source_data_1_1_property_layout" ],
     [ "ShaderVariantReferenceData", "struct_a_z_1_1_r_p_i_1_1_material_type_source_data_1_1_shader_variant_reference_data.html", "struct_a_z_1_1_r_p_i_1_1_material_type_source_data_1_1_shader_variant_reference_data" ],
     [ "VersionUpdateDefinition", "struct_a_z_1_1_r_p_i_1_1_material_type_source_data_1_1_version_update_definition.html", null ],
-    [ "EnumeratePropertiesCallback", "class_a_z_1_1_r_p_i_1_1_material_type_source_data.html#aa0d4551ee522c23bf7ca694b260b330e", null ],
+    [ "EnumeratePropertiesCallback", "class_a_z_1_1_r_p_i_1_1_material_type_source_data.html#afbc12af803053e19b9457e4017db15a5", null ],
     [ "EnumeratePropertyGroupsCallback", "class_a_z_1_1_r_p_i_1_1_material_type_source_data.html#aa37b230769be75c0cf07d7872b5095f2", null ],
     [ "PropertyGroupStack", "class_a_z_1_1_r_p_i_1_1_material_type_source_data.html#a5ce63fb4c870d1f28b5534d981afe8b0", null ],
     [ "UvNameMap", "class_a_z_1_1_r_p_i_1_1_material_type_source_data.html#aaf921017932a2654c85ae783c07594cb", null ],

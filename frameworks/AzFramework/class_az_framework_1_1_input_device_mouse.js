@@ -4,7 +4,7 @@ var class_az_framework_1_1_input_device_mouse =
     [ "Implementation", "class_az_framework_1_1_input_device_mouse_1_1_implementation.html", "class_az_framework_1_1_input_device_mouse_1_1_implementation" ],
     [ "ImplementationFactory", "class_az_framework_1_1_input_device_mouse_1_1_implementation_factory.html", null ],
     [ "Movement", "struct_az_framework_1_1_input_device_mouse_1_1_movement.html", "struct_az_framework_1_1_input_device_mouse_1_1_movement" ],
-    [ "ButtonChannelByIdMap", "class_az_framework_1_1_input_device_mouse.html#a0d6e8b0f7e8e1421daf54d08abdcfad9", null ],
+    [ "ButtonChannelByIdMap", "class_az_framework_1_1_input_device_mouse.html#a933db4c3abe8c3e56da88b0bd507b6d3", null ],
     [ "InputDeviceMouse", "class_az_framework_1_1_input_device_mouse.html#a90dc6a17c723a2279909ac41a89c3ca0", null ],
     [ "~InputDeviceMouse", "class_az_framework_1_1_input_device_mouse.html#a93c65d22cede014ab3b43eeb5b419899", null ],
     [ "GetInputChannelsById", "class_az_framework_1_1_input_device_mouse.html#add671d7f64242f803d60365abf4a3e38", null ],
